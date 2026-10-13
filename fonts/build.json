@@ -1,0 +1,20 @@
+{
+  "upstream": {
+    "repo": "https://github.com/notofonts/noto-cjk",
+    "commit": "f8d157532fbfaeda587e826d4cd5b21a49186f7c"
+  },
+  "files": [
+    {
+      "name": "yuji-book.woff",
+      "bytes": 281696,
+      "sha256": "cfcb44754a3776523efe6aca5ae110e44cebaf939105f6a9b0256282dc13bdbe",
+      "codepoints": 636
+    },
+    {
+      "name": "yuji-ui.woff",
+      "bytes": 133952,
+      "sha256": "9a17646ac69fab3935a622e543ac22788abdb08b701d99c0108e28f724a1aa45",
+      "codepoints": 636
+    }
+  ]
+}

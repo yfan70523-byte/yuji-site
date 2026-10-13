@@ -1,0 +1,242 @@
+{
+  "version": "exhibition-refinement-20261012",
+  "reconstructionLevel": "source_constrained_explanatory",
+  "hasRealScale": false,
+  "units": "normalized",
+  "modelUrl": "models/yuji-reconstruction.glb",
+  "modelLabel": "来源约束的说明性重建；非扫描或测绘复原",
+  "nodeNames": {
+    "root": "YUJI_ROOT",
+    "body": "Cong_Body",
+    "liner": "Liner_Body",
+    "cup": "Liner_Cup",
+    "lid": "Liner_Lid",
+    "evidenceRoot": "Evidence_Anchors",
+    "anchors": [
+      "E01_Form",
+      "E02_Inscription",
+      "E03_Liner"
+    ]
+  },
+  "unknownRegions": [
+    "外边长、通高、孔径比例来自目录；圆形射口、两节纹区、转角凹槽和倒角参照可见照片概括，细部尺寸为估计。",
+    "馆方已有诗文转录，内壁位置及方向关系已知；完整行款、字形与全周精确定位尚未核对。E02 仅为交互锚点，模型未制作题字；前、右面圆眼、尖眼梢、横线冠和口部浅浮雕参照馆方描述概括。左、背面不补造纹饰；未刻口部回纹。",
+    "内胆壁厚、器底、配合尺寸、盖厚和孔径未知；杯盖形状与五孔尺寸为估计。",
+    "玉色、珐琅蓝与金属色仅区分可观察构件，未制作沁色、裂纹、诗文或珐琅花纹贴图；不表示真实材质或状态。"
+  ],
+  "scaleNote": "琮体通高归一化1；外边长11.7/7.3，孔径8.9/7.3。公布通高不用于推断内胆或装配总高。",
+  "fallback": {
+    "overall": "fallback/overall.png",
+    "front": "fallback/front.png",
+    "top": "fallback/top.png",
+    "separated": "fallback/separated.png"
+  },
+  "software": {
+    "name": "Blender",
+    "version": "4.5.13 LTS",
+    "renderer": "Cycles CPU",
+    "gltfExporter": "Blender bundled glTF exporter"
+  },
+  "coordinateSystem": {
+    "up": "Y",
+    "rootTransform": "identity",
+    "linerInitialPosition": [
+      0,
+      0,
+      0
+    ],
+    "separatedOffset": [
+      2.05,
+      0.1,
+      0
+    ],
+    "lidAdditionalOffset": [
+      0,
+      0.65,
+      0
+    ]
+  },
+  "sources": [
+    "S01",
+    "S02",
+    "S03",
+    "S04"
+  ],
+  "publishedDimensions": {
+    "height": 0.073,
+    "innerDiameter": 0.089,
+    "outerSide": 0.117,
+    "sourceIds": [
+      "S01",
+      "S02"
+    ],
+    "measurementBasis": "published_catalog",
+    "measurementCaution": "沿用目录原称通高；未获得测量端点、误差、各截面数据。不能据此推出内胆尺寸或整套装配总高。"
+  },
+  "normalizedBody": {
+    "height": 1,
+    "outerSide": 1.6027397260273972,
+    "innerDiameter": 1.2191780821917808,
+    "innerDiameterOverOuterSide": 0.7606837606837608
+  },
+  "estimates": {
+    "cupOuterDiameter": 1.1,
+    "cupInnerDiameter": 1.01,
+    "cupHeight": 0.97,
+    "cupRimDiameter": 1.18,
+    "lidDiameter": 1.13,
+    "lidThickness": 0.045,
+    "holeDiameters": [
+      0.184,
+      0.134,
+      0.134,
+      0.134,
+      0.134
+    ],
+    "holeLayout": "central_plus_four_surrounding",
+    "bodyRelief": "two registers; rounded circular collar; approximate engraved circular eyes, pointed tails, straight crown lines and low mouth bands on front/right only",
+    "reliefDepthRange": [
+      0.008,
+      0.018
+    ],
+    "uncarvedFaces": [
+      "left",
+      "back"
+    ],
+    "detailSourceIds": [
+      "S02",
+      "S04"
+    ],
+    "detailReferenceFiles": [
+      "hkpm-reference-browser.png",
+      "I04-browser.png",
+      "I05-browser.png"
+    ],
+    "detailAccuracy": "qualitative approximation; positions, widths, depths and profile radii estimated; no measured restoration"
+  },
+  "geometryChecks": {
+    "lidHoleCount": 5,
+    "holes": [
+      {
+        "centerBlender": [
+          0,
+          0,
+          0.5225
+        ],
+        "radius": 0.092,
+        "axialRayClear": true,
+        "innerWallHit": true
+      },
+      {
+        "centerBlender": [
+          0.29,
+          0,
+          0.5225
+        ],
+        "radius": 0.067,
+        "axialRayClear": true,
+        "innerWallHit": true
+      },
+      {
+        "centerBlender": [
+          -0.29,
+          0,
+          0.5225
+        ],
+        "radius": 0.067,
+        "axialRayClear": true,
+        "innerWallHit": true
+      },
+      {
+        "centerBlender": [
+          0,
+          0.29,
+          0.5225
+        ],
+        "radius": 0.067,
+        "axialRayClear": true,
+        "innerWallHit": true
+      },
+      {
+        "centerBlender": [
+          0,
+          -0.29,
+          0.5225
+        ],
+        "radius": 0.067,
+        "axialRayClear": true,
+        "innerWallHit": true
+      }
+    ],
+    "solidFaceBetweenHoles": true,
+    "bodyBoreDiameter": 1.2191780821917808
+  },
+  "thirdPartyImagesOrTextures": false,
+  "editorial": {
+    "hero": "editorial/hero.png",
+    "form": "editorial/form.png",
+    "background": "transparent",
+    "heroResolution": [
+      1400,
+      1400
+    ],
+    "formResolution": [
+      1000,
+      1000
+    ],
+    "stagingNote": "图像分看构图，不代表实际拆卸过程；同一说明性网格渲染。"
+  },
+  "measured": {
+    "meshes": {
+      "Cong_Body": {
+        "vertices": 65024,
+        "triangles": 130048,
+        "dimensionsBlender": [
+          1.602739691734314,
+          1.602739691734314,
+          1
+        ],
+        "closedManifold": true,
+        "eulerCharacteristic": 0,
+        "signedVolume": 1.3015077579324597
+      },
+      "Liner_Cup": {
+        "vertices": 1154,
+        "triangles": 2304,
+        "dimensionsBlender": [
+          1.1799999475479126,
+          1.1799999475479126,
+          0.9700000286102295
+        ],
+        "closedManifold": true,
+        "eulerCharacteristic": 2,
+        "signedVolume": 0.18969366905313625
+      },
+      "Liner_Lid": {
+        "vertices": 910,
+        "triangles": 1836,
+        "dimensionsBlender": [
+          1.1299999952316284,
+          1.1299999952316284,
+          0.04500000178813934
+        ],
+        "closedManifold": true,
+        "eulerCharacteristic": -8,
+        "signedVolume": 0.041382209020888454
+      }
+    },
+    "totalTriangles": 134188,
+    "glbBytes": 2558128,
+    "blendBytes": 5294203,
+    "fallbackResolution": [
+      1000,
+      900
+    ],
+    "fallbackBytes": {
+      "overall": 826662,
+      "front": 744686,
+      "top": 832287,
+      "separated": 800331
+    }
+  }
+}
