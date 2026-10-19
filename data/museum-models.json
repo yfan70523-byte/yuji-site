@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Additional first-person museum LODs derived from the six supplied collection GLBs; high-detail web and original files remain unchanged.",
+  "sourceManifest": "data/collection-models.json",
+  "sourceManifestSha256": "0f0b881ee71c2dd19de8102e38073107b5d8355df6112f705df65c874b43debe",
+  "process": "weld; simplify ratio 0.15 / error 0.003; 1024px WebP (base color quality84, normal and surface maps lossless); Meshopt medium (position16 / normal12 / texcoord14); preserve source materials and scene transforms",
+  "settings": {
+    "simplifyRatio": 0.15,
+    "simplifyError": 0.003,
+    "maxTextureSize": 1024,
+    "baseColorQuality": 84,
+    "dataMapsLossless": true,
+    "meshoptLevel": "medium",
+    "quantizePosition": 16,
+    "quantizeNormal": 12,
+    "quantizeTexcoord": 14,
+    "maxTriangles": 60000,
+    "maxBytes": 1750000
+  },
+  "tools": {
+    "@gltf-transform/core": "4.5.1",
+    "@gltf-transform/functions": "4.5.1",
+    "@gltf-transform/extensions": "4.5.1",
+    "meshoptimizer": "1.3.0",
+    "sharp": "0.35.5",
+    "gltf-validator": "2.0.0-dev.3.10"
+  },
+  "validationNote": "Khronos validation checks encoded GLBs and expanded Meshopt mesh data. Encoded files report unsupported Meshopt extension info; expanded files remove that limitation. The source materials omit stored tangents, retaining the runtime-generated tangent-space warning. Sharp independently decodes every WebP texture. No source geometry is substituted.",
+  "totals": {
+    "sourceBytes": 30186228,
+    "webBytes": 7142176,
+    "trianglesBefore": 1617456,
+    "trianglesAfter": 242613
+  },
+  "models": [
+    {
+      "id": "liangzhu",
+      "originalSource": "新石器时代/aa9bb9d5c927c132c1df52aa8dab7cb4.glb",
+      "originalSourceSha256": "a807104e256065e609faa873a12f5eccf28263c6d1f86e7e691739e2d269da2a",
+      "source": "models/collection/liangzhu.glb",
+      "sourceBytes": 6919604,
+      "sourceSha256": "509a86bee7082931b55502bd882f11d3f37198f63ec3fa2b2e5d5fc39ed8cf59",
+      "trianglesBefore": 269220,
+      "trianglesAfter": 40382,
+      "retainedTriangleRatio": 0.14999628556570835,
+      "sourceBounds": {
+        "min": [
+          -0.44297099113464355,
+          0.0000073411127863021175,
+          -0.44797382100122746
+        ],
+        "max": [
+          0.4492749869823456,
+          0.4459807301498532,
+          0.4404328439375975
+        ]
+      },
+      "bounds": {
+        "min": [
+          -0.4425354604407518,
+          0.00018087198837374308,
+          -0.4474510639321071
+        ],
+        "max": [
+          0.4484855875996668,
+          0.4458344201583603,
+          0.4401822937097429
+        ]
+      },
+      "webPath": "models/museum/liangzhu.glb",
+      "webBytes": 1534716,
+      "webSha256": "c522e701aa5c803fc5a1c637196cef3edeccb7e088403c0fd270fd3e10d5a102",
+      "textures": [
+        {
+          "name": "texture_pbr_20250901_normal",
+          "mimeType": "image/webp",
+          "slots": [
+            "normalTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 597222
+        },
+        {
+          "name": "texture_pbr_20250901",
+          "mimeType": "image/webp",
+          "slots": [
+            "baseColorTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 65386
+        },
+        {
+          "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+          "mimeType": "image/webp",
+          "slots": [
+            "metallicRoughnessTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 344916
+        }
+      ],
+      "validation": {
+        "encoded": {
+          "errors": 0,
+          "warnings": 1,
+          "infos": 1,
+          "issueCodes": [
+            "UNSUPPORTED_EXTENSION",
+            "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+          ]
+        },
+        "decodedMesh": {
+          "errors": 0,
+          "warnings": 1,
+          "infos": 0,
+          "issueCodes": [
+            "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+          ]
+        }
+      }
+    },
+    {
+      "id": "qijia",
+      "originalSource": "新石器时代晚期/3a72c81c6f6c8c59621015a609cf5d6c.glb",
+      "originalSourceSha256": "d6f94d09fc429fe47b65f92288cfeb38c9e8c2998325a857a47910975ee142ee",
+      "source": "models/collection/qijia.glb",
+      "sourceBytes": 4782768,
+      "sourceSha256": "ebb4aac9812b1cd8a7c735459d8bb4062eb165ed2c65828bf100dc05e581b3c3",
+      "trianglesBefore": 269982,
+      "trianglesAfter": 40496,
+      "retainedTriangleRatio": 0.14999518486417612,
+      "sourceBounds": {
+        "min": [
+          -0.2167364747938215,
+          0.00001696935093076224,
+          -0.26381713515616306
+        ],
+        "max": [
+          0.2175904752430021,
+          1.0863981746687084,
+          0.2648682710538124
+        ]
+      },
+      "bounds": {
+        "min": [
+          -0.2167232369838406,
+          0.00044793525271080714,
+          -0.2637606663877923
+        ],
+        "max": [
+          0.21744463268264022,
+          1.0863650186216276,
+          0.2647455025954118
+        ]
+      },
+      "webPath": "models/museum/qijia.glb",
+      "webBytes": 1117848,
+      "webSha256": "662d86635ea5533b9ed6f4eb3cabaa59064043318f57100f89ff474c19522f46",
+      "textures": [
+        {
+          "name": "texture_pbr_20250901_normal",
+          "mimeType": "image/webp",
+          "slots": [
+            "normalTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 241636
+        },
+        {
+          "name": "texture_pbr_20250901",
+          "mimeType": "image/webp",
+          "slots": [
+            "baseColorTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 68302
+        },
+        {
+          "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+          "mimeType": "image/webp",
+          "slots": [
+            "metallicRoughnessTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 332960
+        }
+      ],
+      "validation": {
+        "encoded": {
+          "errors": 0,
+          "warnings": 1,
+          "infos": 1,
+          "issueCodes": [
+            "UNSUPPORTED_EXTENSION",
+            "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+          ]
+        },
+        "decodedMesh": {
+          "errors": 0,
+          "warnings": 1,
+          "infos": 0,
+          "issueCodes": [
+            "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+          ]
+        }
+      }
+    },
+    {
+      "id": "shang",
+      "originalSource": "商代/7555b0fe8daa57744eeea308ff91ec82.glb",
+      "originalSourceSha256": "cdafe19cb6c4b468d24726333016192095d326b490b0ed357883a334ffe7613c",
+      "source": "models/collection/shang.glb",
+      "sourceBytes": 5054748,
+      "sourceSha256": "b0291b9201848a977ca7b7853cc2593b1881d1c1d5e890a525b059d9c771ef6d",
+      "trianglesBefore": 269800,
+      "trianglesAfter": 40470,
+      "retainedTriangleRatio": 0.15,
+      "sourceBounds": {
+        "min": [
+          -0.45328998542026244,
+          0.0000064670217092832605,
+          -0.47803105814119395
+        ],
+        "max": [
+          0.4457509813328143,
+          0.416575638569875,
+          0.4523570709445311
+        ]
+      },
+      "bounds": {
+        "min": [
+          -0.4528339199373418,
+          0.00007638890283354072,
+          -0.47774716314454285
+        ],
+        "max": [
+          0.44560719803010945,
+          0.41650571667869696,
+          0.45201639710327335
+        ]
+      },
+      "webPath": "models/museum/shang.glb",
+      "webBytes": 1269176,
+      "webSha256": "783984360be07aa93cc3a97f83febb8c8111c876ee9802b6a4dccdcfbca88eca",
+      "textures": [
+        {
+          "name": "texture_pbr_20250901_normal",
+          "mimeType": "image/webp",
+          "slots": [
+            "normalTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 303716
+        },
+        {
+          "name": "texture_pbr_20250901",
+          "mimeType": "image/webp",
+          "slots": [
+            "baseColorTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 48994
+        },
+        {
+          "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+          "mimeType": "image/webp",
+          "slots": [
+            "metallicRoughnessTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 414014
+        }
+      ],
+      "validation": {
+        "encoded": {
+          "errors": 0,
+          "warnings": 1,
+          "infos": 1,
+          "issueCodes": [
+            "UNSUPPORTED_EXTENSION",
+            "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+          ]
+        },
+        "decodedMesh": {
+          "errors": 0,
+          "warnings": 1,
+          "infos": 0,
+          "issueCodes": [
+            "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+          ]
+        }
+      }
+    },
+    {
+      "id": "zhou",
+      "originalSource": "西周/345090e4bcecc4ba1b19d4ef9ec463df.glb",
+      "originalSourceSha256": "d08102dc3e10d74068d1388b80e137fde44bfa17bf7b5e1a802ab2066866e08d",
+      "source": "models/collection/zhou.glb",
+      "sourceBytes": 3758968,
+      "sourceSha256": "f91c9adf769f98569916e4305d9b904d97436ced650a9adc17a86d155d321c5a",
+      "trianglesBefore": 269290,
+      "trianglesAfter": 40392,
+      "retainedTriangleRatio": 0.14999442979687325,
+      "sourceBounds": {
+        "min": [
+          -0.231839115507009,
+          0.00001502758102422952,
+          -0.23250043149602576
+        ],
+        "max": [
+          0.2319101195400977,
+          1.103069115918827,
+          0.23158557459547738
+        ]
+      },
+      "bounds": {
+        "min": [
+          -0.23188837210912017,
+          0.00021698284301163717,
+          -0.23240657945959517
+        ],
+        "max": [
+          0.23152180659328822,
+          1.1026988670449334,
+          0.2314917264905584
+        ]
+      },
+      "webPath": "models/museum/zhou.glb",
+      "webBytes": 867864,
+      "webSha256": "90484d59a1be6f5d3165344cc3e97939178982e544fc832e9014f7848406e6a2",
+      "textures": [
+        {
+          "name": "texture_pbr_20250901_normal",
+          "mimeType": "image/webp",
+          "slots": [
+            "normalTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 138750
+        },
+        {
+          "name": "texture_pbr_20250901",
+          "mimeType": "image/webp",
+          "slots": [
+            "baseColorTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 43978
+        },
+        {
+          "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+          "mimeType": "image/webp",
+          "slots": [
+            "metallicRoughnessTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 197234
+        }
+      ],
+      "validation": {
+        "encoded": {
+          "errors": 0,
+          "warnings": 1,
+          "infos": 1,
+          "issueCodes": [
+            "UNSUPPORTED_EXTENSION",
+            "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+          ]
+        },
+        "decodedMesh": {
+          "errors": 0,
+          "warnings": 1,
+          "infos": 0,
+          "issueCodes": [
+            "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+          ]
+        }
+      }
+    },
+    {
+      "id": "zhanguohan",
+      "originalSource": "../4f64a3cc811f49ff3988fc21fb5431a3.glb",
+      "originalSourceSha256": "6056c46464ab75d9eee4c8b433ba70062b324b0c9c3d0c6c2c91b2f301dd6cdb",
+      "source": "models/collection/zhanguohan.glb",
+      "sourceBytes": 3609788,
+      "sourceSha256": "4fde677890189c051ed7e077dab78e0380af1944d8ad4841e7355e2ea8e798fa",
+      "trianglesBefore": 270000,
+      "trianglesAfter": 40500,
+      "retainedTriangleRatio": 0.15,
+      "sourceBounds": {
+        "min": [
+          -0.42004595838129477,
+          0.000005942163587402405,
+          -0.422422027197024
+        ],
+        "max": [
+          0.4193589552456136,
+          0.5527880444417115,
+          0.426360091270269
+        ]
+      },
+      "bounds": {
+        "min": [
+          -0.4198129741575235,
+          0.000053232065644170934,
+          -0.42239612405979515
+        ],
+        "max": [
+          0.4193850026851454,
+          0.5527925611823571,
+          0.426334187989525
+        ]
+      },
+      "webPath": "models/museum/zhanguohan.glb",
+      "webBytes": 829460,
+      "webSha256": "7b62102f18750fec0ab54555601d3f87c7919e1a24378115d823964bd4f809ec",
+      "textures": [
+        {
+          "name": "texture_pbr_20250901_normal",
+          "mimeType": "image/webp",
+          "slots": [
+            "normalTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 92348
+        },
+        {
+          "name": "texture_pbr_20250901",
+          "mimeType": "image/webp",
+          "slots": [
+            "baseColorTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 55550
+        },
+        {
+          "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+          "mimeType": "image/webp",
+          "slots": [
+            "metallicRoughnessTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 163114
+        }
+      ],
+      "validation": {
+        "encoded": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "decodedMesh": {
+          "errors": 0,
+          "warnings": 1
+        }
+      }
+    },
+    {
+      "id": "songmingqing",
+      "originalSource": "宋、明、清/a92be72f9bf046a9391021e134990f9f.glb",
+      "originalSourceSha256": "5980be16d357552f22b57b92be2c2d0d34ad37d0b2eb16e75e340e179d81e193",
+      "source": "models/collection/songmingqing.glb",
+      "sourceBytes": 6060352,
+      "sourceSha256": "890decf65548693620d9c7c53e9ebdf81ff48630b2011f4cd9ac7ef305707eff",
+      "trianglesBefore": 269164,
+      "trianglesAfter": 40373,
+      "retainedTriangleRatio": 0.14999405566866297,
+      "sourceBounds": {
+        "min": [
+          -0.4178740084171295,
+          0.00005778237697348643,
+          -0.42078394219607623
+        ],
+        "max": [
+          0.41907399892807007,
+          0.4920812096439205,
+          0.40914001501736025
+        ]
+      },
+      "bounds": {
+        "min": [
+          -0.4178740084171295,
+          0.00023019400749044183,
+          -0.4205668318583622
+        ],
+        "max": [
+          0.41907399892807007,
+          0.49213868006616757,
+          0.40887181965548547
+        ]
+      },
+      "webPath": "models/museum/songmingqing.glb",
+      "webBytes": 1523112,
+      "webSha256": "c65000fe72a0203947bb2df308439f7050c6970efe69bb891fbbbefbc14ab012",
+      "textures": [
+        {
+          "name": "texture_pbr_20250901_normal",
+          "mimeType": "image/webp",
+          "slots": [
+            "normalTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 433098
+        },
+        {
+          "name": "texture_pbr_20250901",
+          "mimeType": "image/webp",
+          "slots": [
+            "baseColorTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 51844
+        },
+        {
+          "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+          "mimeType": "image/webp",
+          "slots": [
+            "metallicRoughnessTexture"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "bytes": 494424
+        }
+      ],
+      "validation": {
+        "encoded": {
+          "errors": 0,
+          "warnings": 1,
+          "infos": 1,
+          "issueCodes": [
+            "UNSUPPORTED_EXTENSION",
+            "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+          ]
+        },
+        "decodedMesh": {
+          "errors": 0,
+          "warnings": 1,
+          "infos": 0,
+          "issueCodes": [
+            "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+          ]
+        }
+      }
+    }
+  ]
+}

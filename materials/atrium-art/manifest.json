@@ -1,0 +1,351 @@
+[
+  {
+    "id": "landscape",
+    "name": "高档山水壁画：《山河静观》.png",
+    "sourcePath": "D:\\本科\\数媒比赛\\玉记\\博物馆整体设计图\\高档山水壁画：《山河静观》.png",
+    "sha256": "ac0e00233feb4ba39bd409924bc51c855a0bafe6318ac6b745ad0129cd18f17b",
+    "type": "画芯",
+    "pixels": [
+      2164,
+      727
+    ],
+    "alpha": false,
+    "bytes": 2700007,
+    "output": "public/materials/atrium-art/landscape.webp",
+    "area": "中庭北侧高位",
+    "physicalWidth": 6,
+    "anchor": "src/atrium-art-config.js",
+    "quality": "shared",
+    "status": "installed",
+    "notes": "原比例完整保留；仅等比例缩小并 WebP 压缩",
+    "placement": {
+      "angle": 0,
+      "radius": 22.73,
+      "y": 8.1,
+      "width": 6
+    },
+    "physicalSize": [
+      6,
+      2.0157116451016637,
+      0.045
+    ],
+    "origin": "用户提供的原创设计素材，非馆藏扫描",
+    "sourceUse": "color-map"
+  },
+  {
+    "id": "river",
+    "name": "长幅水墨金箔画：《江渚微金》.png",
+    "sourcePath": "D:\\本科\\数媒比赛\\玉记\\博物馆整体设计图\\长幅水墨金箔画：《江渚微金》.png",
+    "sha256": "3e686f916eb1a133214840711c551b3b8e3626bc214284310cb0242a80a41cec",
+    "type": "画芯",
+    "pixels": [
+      2164,
+      727
+    ],
+    "alpha": false,
+    "bytes": 2413988,
+    "output": "public/materials/atrium-art/river.webp",
+    "area": "书画入口上方",
+    "physicalWidth": 4.5,
+    "anchor": "src/atrium-art-config.js",
+    "quality": "shared",
+    "status": "installed",
+    "notes": "原比例完整保留；仅等比例缩小并 WebP 压缩",
+    "placement": {
+      "angle": -2.0943951023931953,
+      "radius": 22.8,
+      "y": 7.1,
+      "width": 4.5
+    },
+    "physicalSize": [
+      4.5,
+      1.5117837338262476,
+      0.045
+    ],
+    "origin": "用户提供的原创设计素材，非馆藏扫描",
+    "sourceUse": "color-map"
+  },
+  {
+    "id": "graphite",
+    "name": "墙纸／展柜背板贴图 A：《石墨雾纹.png",
+    "sourcePath": "D:\\本科\\数媒比赛\\玉记\\博物馆整体设计图\\墙纸／展柜背板贴图 A：《石墨雾纹.png",
+    "sha256": "6bfc074551a8010c3e86fd869f5635e0f43cf0edadc1e3af7b277fcf7f83d845",
+    "type": "饰面",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "bytes": 3318480,
+    "output": "public/materials/atrium-art/graphite.webp",
+    "area": "礼序背板局部",
+    "physicalWidth": 1,
+    "anchor": "src/atrium-art-config.js",
+    "quality": "shared",
+    "status": "installed",
+    "notes": "单板使用，不声明无缝；原图只读，等比例缩小并 WebP 压缩",
+    "placement": "relief backing / single panel",
+    "physicalSize": [
+      1,
+      1,
+      0.045
+    ],
+    "origin": "用户提供的原创设计素材，非馆藏扫描",
+    "sourceUse": "color-map"
+  },
+  {
+    "id": "ritual",
+    "name": "墙纸／展柜背板贴图 B：《隐玉回纹》.png",
+    "sourcePath": "D:\\本科\\数媒比赛\\玉记\\博物馆整体设计图\\墙纸／展柜背板贴图 B：《隐玉回纹》.png",
+    "sha256": "11344e70bd2a9c3d8e301437fe5d140ea8f12a151eea22be970fc16b840ac4a7",
+    "type": "饰面",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "bytes": 3164781,
+    "output": "public/materials/atrium-art/ritual.webp",
+    "area": "小展柜下部单板",
+    "physicalWidth": 0.78,
+    "anchor": "src/atrium-art-config.js",
+    "quality": "shared",
+    "status": "installed",
+    "notes": "单板使用，不声明无缝；原图只读，等比例缩小并 WebP 压缩",
+    "placement": "eleven case fronts at y=.28",
+    "physicalSize": [
+      0.76,
+      0.2,
+      0.012
+    ],
+    "origin": "用户提供的原创设计素材，非馆藏扫描",
+    "sourceUse": "color-map"
+  },
+  {
+    "id": "plaque",
+    "name": "介绍牌标准母版：产品设计图.png",
+    "sourcePath": "D:\\本科\\数媒比赛\\玉记\\博物馆整体设计图\\介绍牌标准母版：产品设计图.png",
+    "sha256": "2aeef34cb1ad33f37e0cdc2a9ec2bf581a01cf1f728e4e5d296a945e9fd51b26",
+    "type": "建模参考",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha": false,
+    "bytes": 1842158,
+    "output": null,
+    "area": "五馆入口",
+    "physicalWidth": 0.82,
+    "anchor": "src/atrium-art-config.js",
+    "quality": "shared",
+    "status": "installed-approximation",
+    "notes": "按参考建立三维近似；不作为贴图加载",
+    "placement": [
+      {
+        "id": "bronze",
+        "x": -3.544830097166973,
+        "y": 0,
+        "z": -21.9658070551077,
+        "rotationY": 0.16
+      },
+      {
+        "id": "jade",
+        "x": 17.250531875767226,
+        "y": 0,
+        "z": -14.052816443800111,
+        "rotationY": -0.8871975511965976
+      },
+      {
+        "id": "ceramic",
+        "x": 20.795361972934202,
+        "y": 0,
+        "z": 7.912990611307588,
+        "rotationY": -1.9343951023931953
+      },
+      {
+        "id": "painting",
+        "x": -17.250531875767233,
+        "y": 0,
+        "z": 14.052816443800108,
+        "rotationY": 2.2543951023931954
+      },
+      {
+        "id": "digital",
+        "x": -20.795361972934202,
+        "y": 0,
+        "z": -7.912990611307595,
+        "rotationY": 1.2071975511965976
+      }
+    ],
+    "physicalSize": [
+      0.82,
+      1.95,
+      0.06
+    ],
+    "origin": "用户提供的原创设计素材，非馆藏扫描",
+    "sourceUse": "reference-only"
+  },
+  {
+    "id": "jade-relief",
+    "name": "浅玉色浮雕：《云山礼璧》.png",
+    "sourcePath": "D:\\本科\\数媒比赛\\玉记\\博物馆整体设计图\\浅玉色浮雕：《云山礼璧》.png",
+    "sha256": "377295c8b4a350bc7403c4e3ecc589c9e5d94b18c0a4629b6a1134da45400b13",
+    "type": "建模参考",
+    "pixels": [
+      1448,
+      1086
+    ],
+    "alpha": false,
+    "bytes": 2533587,
+    "output": null,
+    "area": "玉器入口",
+    "physicalWidth": 3,
+    "anchor": "src/atrium-art-config.js",
+    "quality": "shared",
+    "status": "installed-approximation",
+    "notes": "按参考建立三维近似；不作为贴图加载",
+    "placement": {
+      "angle": 1.2521975511965977,
+      "radius": 22.73,
+      "y": 2.5
+    },
+    "physicalSize": [
+      3,
+      1.5,
+      0.075
+    ],
+    "origin": "用户提供的原创设计素材，非馆藏扫描",
+    "sourceUse": "reference-only"
+  },
+  {
+    "id": "bronze-relief",
+    "name": "青铜纹样浅浮雕：《礼序》.png",
+    "sourcePath": "D:\\本科\\数媒比赛\\玉记\\博物馆整体设计图\\青铜纹样浅浮雕：《礼序》.png",
+    "sha256": "eb45174d756b7d89b64ef882814f3628d56d27a1815cf25f18d976918ec0bea9",
+    "type": "建模参考",
+    "pixels": [
+      1448,
+      1086
+    ],
+    "alpha": false,
+    "bytes": 2305978,
+    "output": null,
+    "area": "北侧两组",
+    "physicalWidth": 1,
+    "anchor": "src/atrium-art-config.js",
+    "quality": "shared",
+    "status": "installed-approximation",
+    "notes": "按参考建立三维近似；不作为贴图加载",
+    "placement": [
+      {
+        "angle": 0.51,
+        "radius": 22.71,
+        "y": 7.3
+      },
+      {
+        "angle": -0.51,
+        "radius": 22.71,
+        "y": 7.3
+      }
+    ],
+    "physicalSize": [
+      1,
+      3.6,
+      0.065
+    ],
+    "origin": "用户提供的原创设计素材，非馆藏扫描",
+    "sourceUse": "reference-only"
+  },
+  {
+    "id": "contours",
+    "name": "现代金属墙饰：《山河等高线》.png",
+    "sourcePath": "D:\\本科\\数媒比赛\\玉记\\博物馆整体设计图\\现代金属墙饰：《山河等高线》.png",
+    "sha256": "41e2b8361e270d58b6161521701669e32fc7ecd1b8578293eac4f1c12111db89",
+    "type": "建模参考",
+    "pixels": [
+      1672,
+      941
+    ],
+    "alpha": false,
+    "bytes": 1885079,
+    "output": null,
+    "area": "数字馆前区",
+    "physicalWidth": 3.6,
+    "anchor": "src/atrium-art-config.js",
+    "quality": "shared",
+    "status": "installed-approximation",
+    "notes": "按参考建立三维近似；不作为贴图加载",
+    "placement": {
+      "angle": -1.2671975511965976,
+      "radius": 22.7,
+      "y": 2.4
+    },
+    "physicalSize": [
+      3.6,
+      1.4,
+      0.07
+    ],
+    "origin": "用户提供的原创设计素材，非馆藏扫描",
+    "sourceUse": "reference-only"
+  },
+  {
+    "id": "case",
+    "name": "中庭展览柜整体装饰方案图.png",
+    "sourcePath": "D:\\本科\\数媒比赛\\玉记\\博物馆整体设计图\\中庭展览柜整体装饰方案图.png",
+    "sha256": "17cc1c31f2dcff47e17139fc1ce24a20425f44b3b5cee4db9beca074ccc76d73",
+    "type": "建模参考",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha": false,
+    "bytes": 2079127,
+    "output": null,
+    "area": "现有小展柜",
+    "physicalWidth": 0.88,
+    "anchor": "src/atrium-art-config.js",
+    "quality": "shared",
+    "status": "installed-approximation",
+    "notes": "按参考建立三维近似；不作为贴图加载；按原小展柜尺寸适配饰带，不另造图纸中的文物",
+    "placement": "existing eleven cases; no rescaling or new duplicate cabinet",
+    "physicalSize": [
+      0.88,
+      1.85,
+      0.78
+    ],
+    "origin": "用户提供的原创设计素材，非馆藏扫描",
+    "sourceUse": "reference-only"
+  },
+  {
+    "id": "hebi",
+    "name": "中庭主艺术品：《合璧·山河》.png",
+    "sourcePath": "D:\\本科\\数媒比赛\\玉记\\博物馆整体设计图\\中庭主艺术品：《合璧·山河》.png",
+    "sha256": "4e40fd8914e88c715cbb05c64d85c40123837f437b9c3b97ebdb592307018871",
+    "type": "建模参考",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha": false,
+    "bytes": 2124466,
+    "output": null,
+    "area": "中央展台",
+    "physicalWidth": 3.4,
+    "anchor": "src/atrium-art-config.js",
+    "quality": "shared",
+    "status": "installed-approximation",
+    "notes": "按参考建立三维近似；不作为贴图加载",
+    "placement": {
+      "x": 0,
+      "y": 0.7175,
+      "z": 0
+    },
+    "physicalSize": [
+      3.4,
+      5.2,
+      1.11
+    ],
+    "origin": "用户提供的原创设计素材，非馆藏扫描",
+    "sourceUse": "reference-only"
+  }
+]

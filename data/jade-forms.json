@@ -1,0 +1,817 @@
+{
+  "schemaVersion": 1,
+  "source": "User supplied 玉品.zip; source names are labels, not authenticated museum identifiers",
+  "process": "Preserved source PBR materials; welded and simplified; WebP at recorded per-derivative sizes (768/1024 roaming, 1536/2048 detail); Meshopt; decoded Khronos validation",
+  "models": [
+    {
+      "id": "jade-bi",
+      "title": "玉璧",
+      "source": "玉品/1玉璧/8607d36b6bb5bd5a03e9cd8bfb7aebf2.glb",
+      "sourceSha256": "890976afce196e53035bd83a043d478011ad9e5113872b74285abed6195aa22b",
+      "sourceBytes": 92009792,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/jade-forms/jade-bi-roaming.glb",
+          "sha256": "2d4344fc2bb7b346cbcb05a16766a0bcce4ce4e70a1b5fe6bb5c72105baaa339",
+          "bytes": 2361436,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.5892350077629089,
+              0.000020460376538800062,
+              -0.02626021374602461
+            ],
+            "max": [
+              0.5900539755821228,
+              1.1790936599078354,
+              0.025925476684640705
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/jade-forms/jade-bi-detail.glb",
+          "sha256": "e234a4bf70018c6fdc83ee629d5da9d6f1085dd608fb0b697d7041b31664da91",
+          "bytes": 8066996,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.5892369747161865,
+              0.00001051522947592698,
+              -0.026259655568498467
+            ],
+            "max": [
+              0.590071976184845,
+              1.1791756640562387,
+              0.025926918987643637
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/jade-forms/jade-bi-roaming.glb",
+          "sourceSha256": "2d4344fc2bb7b346cbcb05a16766a0bcce4ce4e70a1b5fe6bb5c72105baaa339",
+          "webPath": "models/jade-forms/jade-bi-overview.glb",
+          "bytes": 614800,
+          "sha256": "1e85eb8c3960fe3b7ab98938ebcd0603d82a7b41d0917baa52993c93da6d10bb",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.5892350077629089,
+              0.00009243926428714744,
+              -0.02626921107238845
+            ],
+            "max": [
+              0.5900539755821228,
+              1.1790936605739386,
+              0.02589848418088722
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1499924,
+      "photo": {
+        "source": "玉品/1玉璧/daf0814942a1c805e9580dfa03710dc4~tplv-be4g95zd3a-448x448.jpeg",
+        "sourceSha256": "b64906c2b52eb9e89912192710d44bc7ae294622e5db8a529cbb7e5e08da0d6b",
+        "webPath": "collection/jade-forms/jade-bi.webp",
+        "sha256": "a1d50872989df7b40b0d9e2285139e81ba57f7f83bdf082814b532bb1e4ead74",
+        "bytes": 16136,
+        "association": "Supplied folder reference"
+      }
+    },
+    {
+      "id": "jade-tube",
+      "title": "玉管",
+      "source": "玉品/2玉管/1696d6096dd52ce80adaa153494c8a13.glb",
+      "sourceSha256": "23b6af6f2ce9d77629f3b39ef2926d86fd1ef5664d2d78a7b9082a418bd4a205",
+      "sourceBytes": 72821112,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/jade-forms/jade-tube-roaming.glb",
+          "sha256": "522b0fef7209755d29ab40c266835860bdab6fd826e2cbb485d2d131fa76076e",
+          "bytes": 1346332,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.09755973084396012,
+              0.00006000189994470606,
+              -0.08324209250468538
+            ],
+            "max": [
+              0.10064773573106416,
+              1.1854341348889776,
+              0.0808153996578168
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/jade-forms/jade-tube-detail.glb",
+          "sha256": "1929e5fa39f21d933b0af9764026b9bdd2a95adcd1a0c956e7a2b1f05c560cd2",
+          "bytes": 4956156,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.0975532575334113,
+              0.000021002526582325487,
+              -0.08352680797592277
+            ],
+            "max": [
+              0.10063425887475423,
+              1.1854921896119799,
+              0.08155712110071882
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/jade-forms/jade-tube-roaming.glb",
+          "sourceSha256": "522b0fef7209755d29ab40c266835860bdab6fd826e2cbb485d2d131fa76076e",
+          "webPath": "models/jade-forms/jade-tube-overview.glb",
+          "bytes": 381608,
+          "sha256": "547946604636c7dcd1a58be2e05d13960dfaa732975c2339b43f27d42934e7f8",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.09755973084396012,
+              0.00006000189994459504,
+              -0.0832420925046854
+            ],
+            "max": [
+              0.10064773573106416,
+              1.1854341348889779,
+              0.08081539965781681
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1500000,
+      "photo": {
+        "source": "玉品/2玉管/15224189471966c6749263e~tplv-a9rns2rl98-pc_smart_face_crop-v1_512_384.jpg",
+        "sourceSha256": "102343e6980f58b16fc20e6966c7c6430293e82f88d5dd9a6248561c0ecc6090",
+        "webPath": "collection/jade-forms/jade-tube.webp",
+        "sha256": "afbb4dd1ca7febc93d4edd865c14172bb573f782c8f4b3b96b112751c9de0a3b",
+        "bytes": 6298,
+        "association": "Supplied folder reference"
+      }
+    },
+    {
+      "id": "jade-trident-a",
+      "title": "玉三叉形器 · 一",
+      "source": "玉品/3玉三叉形器/0c058c4f78875a4441afe152f8a51a7c.glb",
+      "sourceSha256": "88783c051080917c8b342c40956f96cfc63754face308f287989907930b6d549",
+      "sourceBytes": 77311288,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/jade-forms/jade-trident-a-roaming.glb",
+          "sha256": "bf6ebf03cf727d8c7f32b8d932b43ff46a1aa64111a40dd4028272a4ece6964b",
+          "bytes": 1759440,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.45062899589538574,
+              0.000024846498654362836,
+              -0.22256694924742856
+            ],
+            "max": [
+              0.45695799589157104,
+              0.6511542112278782,
+              0.25918803145299857
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/jade-forms/jade-trident-a-detail.glb",
+          "sha256": "de0f67356d23a27cf587603c82d741522dd2240de1f76d5ec065f21022047f85",
+          "bytes": 5724760,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.4506779909133911,
+              0.0000010444255983954598,
+              -0.22257995273299697
+            ],
+            "max": [
+              0.45695799589157104,
+              0.6513040580386137,
+              0.2592010349387735
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/jade-forms/jade-trident-a-roaming.glb",
+          "sourceSha256": "bf6ebf03cf727d8c7f32b8d932b43ff46a1aa64111a40dd4028272a4ece6964b",
+          "webPath": "models/jade-forms/jade-trident-a-overview.glb",
+          "bytes": 449696,
+          "sha256": "2aa9cd6d1c105f6e8d334922b3fe1e2f6d315aa745a3e04bae86ecd8f94cefb8",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.4503520561386867,
+              0.0005603610997631514,
+              -0.22205727870220346
+            ],
+            "max": [
+              0.456681056134872,
+              0.6512002693009985,
+              0.2592599348339007
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1500000,
+      "photo": {
+        "source": "玉品/3玉三叉形器/72fefa0d67599b06eff0f1d79d4bbc06~tplv-a9rns2rl98-pc_smart_face_crop-v1_512_384.jpg",
+        "sourceSha256": "4d1911cb67565e53e676c60ee026f53d9173a3aa91aa3f6f6a8bd594a43d6009",
+        "webPath": "collection/jade-forms/jade-trident-a.webp",
+        "sha256": "573eb8d6143ae53f578c6621d2c4a042695c92b5d3339c18db983e0a570f161c",
+        "bytes": 8616,
+        "association": "Matched by narrow crescent outline, tall outer prongs and fine line ornament; compared to rendered source model"
+      }
+    },
+    {
+      "id": "jade-trident-b",
+      "title": "玉三叉形器 · 二",
+      "source": "玉品/3玉三叉形器/8777fa23c0fe052b2369a6b730c93784.glb",
+      "sourceSha256": "4e56856ba539beebdaa4906a3f6ed13fb1b9f25858364eacbd4270f8bd0a8a32",
+      "sourceBytes": 107830028,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/jade-forms/jade-trident-b-roaming.glb",
+          "sha256": "df74cf0d6136e886e6816fbff4a8a92f4b6c98fba032868eee345e4574362b88",
+          "bytes": 2111604,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.49387699365615845,
+              0.00040487170992564714,
+              -0.042107810391791484
+            ],
+            "max": [
+              0.49011099338531494,
+              0.7079982461033099,
+              0.04203583156159612
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 768,
+              "height": 768
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/jade-forms/jade-trident-b-detail.glb",
+          "sha256": "b31e1fa4d925f7cd8535dc3fc94e6af13dca6fd6fd156139722618cd6b780243",
+          "bytes": 7763724,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.49449801445007324,
+              0.00004215683300823336,
+              -0.04252918048638634
+            ],
+            "max": [
+              0.49011099338531494,
+              0.7079919636027407,
+              0.04205820109568924
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/jade-forms/jade-trident-b-roaming.glb",
+          "sourceSha256": "df74cf0d6136e886e6816fbff4a8a92f4b6c98fba032868eee345e4574362b88",
+          "webPath": "models/jade-forms/jade-trident-b-overview.glb",
+          "bytes": 860636,
+          "sha256": "5d84058902fb896d4815a9d10515637638ff24ac88fad63d41035e0bf3e62451",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.49255660786481487,
+              0.0005637138764230665,
+              -0.041321498739296705
+            ],
+            "max": [
+              0.488670572522031,
+              0.7064890087508371,
+              0.04127956648510512
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1499804,
+      "photo": {
+        "source": "玉品/3玉三叉形器/b1c77f06dd06011802b5589738351811~tplv-a9rns2rl98-pc_smart_face_crop-v1_512_384.jpg",
+        "sourceSha256": "75adb618885478b5033b0af4ebf34d95b87ac598619c4119917faa4fa67004ad",
+        "webPath": "collection/jade-forms/jade-trident-b.webp",
+        "sha256": "d94a1a3aa51b4fddc6dcf3dcd153834a2566da5829c2b66adee41365374237dd",
+        "bytes": 26910,
+        "association": "Matched by broad outline, large raised circular eyes and mouth; compared to rendered source model"
+      }
+    },
+    {
+      "id": "jade-comb",
+      "title": "玉梳背",
+      "source": "玉品/4玉梳背/decd5449e55d74cd063e72e6135e06cd.glb",
+      "sourceSha256": "e9b824ecaaf737c12b23c09d686404595664db853c12389448d5ef20dbe811e1",
+      "sourceBytes": 96438964,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/jade-forms/jade-comb-roaming.glb",
+          "sha256": "819748240be350cf0a23586df9eb45bd9f6f1a14cddca157b5e919effc8964e2",
+          "bytes": 1957444,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.5770589709281921,
+              0.00015409133001498265,
+              -0.012364424146026398
+            ],
+            "max": [
+              0.5794910192489624,
+              0.6533100235279374,
+              0.012166486715618628
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 768,
+              "height": 768
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/jade-forms/jade-comb-detail.glb",
+          "sha256": "7201f82636d7bd0584d4c0ab473c2cf7fda899fbe854bcb9a5cda541f8a9f589",
+          "bytes": 6552336,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.5773990154266357,
+              0.00002385273910043839,
+              -0.012370304535595147
+            ],
+            "max": [
+              0.5795819759368896,
+              0.6533172624159919,
+              0.012240369459709393
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/jade-forms/jade-comb-roaming.glb",
+          "sourceSha256": "819748240be350cf0a23586df9eb45bd9f6f1a14cddca157b5e919effc8964e2",
+          "webPath": "models/jade-forms/jade-comb-overview.glb",
+          "bytes": 928768,
+          "sha256": "37e8961280e71f749beba4c0691d1c91b16e41833e3b8c7286c563b93dbf1f8a",
+          "triangles": 14938,
+          "bounds": {
+            "min": [
+              -0.5770589709281921,
+              0.00034437776203233295,
+              -0.012337760779216146
+            ],
+            "max": [
+              0.5794557233364245,
+              0.6533668085192595,
+              0.012104526936342726
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1499952,
+      "photo": {
+        "source": "玉品/4玉梳背/05134988c231037d23c47d00b1e9d7b9~tplv-a9rns2rl98-pc_smart_face_crop-v1_512_384.jpg",
+        "sourceSha256": "5d061771334142b85143f526ad8f0140f37b8fa3d2fdcadf0a0fffe2f566fc09",
+        "webPath": "collection/jade-forms/jade-comb.webp",
+        "sha256": "2cd4d5a8a2058c0411da8b23f1e9c92bad0a6d9d9b1f7b266970bab64442b37e",
+        "bytes": 27968,
+        "association": "Supplied folder reference"
+      }
+    },
+    {
+      "id": "jade-yue",
+      "title": "玉钺",
+      "source": "玉品/5玉钺/061ea8bff781669e1e6dd83d2e63fdf6.glb",
+      "sourceSha256": "413091183422ad1fbc5e904c54c2fe7db3a5c532693c56acbfd987d456e92f44",
+      "sourceBytes": 75224736,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/jade-forms/jade-yue-roaming.glb",
+          "sha256": "73170c1e370b4196c32fe1541a41469bb7fccb001f2f258e4612584804027140",
+          "bytes": 1017080,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.3373755483420821,
+              0.0000029985281293498645,
+              -0.050135863879143996
+            ],
+            "max": [
+              0.33194255516848287,
+              1.074552200464152,
+              0.03457011670435957
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 768,
+              "height": 768
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/jade-forms/jade-yue-detail.glb",
+          "sha256": "bdecf1dccceccf64cc83867038bbcb045c66ef66da3e438e4e9aa2c3efb7184d",
+          "bytes": 3696628,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.33738248783424385,
+              -1.4722685293122595e-9,
+              -0.050202450559312724
+            ],
+            "max": [
+              0.33193748432472236,
+              1.0745522004642587,
+              0.034831703561678126
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/jade-forms/jade-yue-roaming.glb",
+          "sourceSha256": "73170c1e370b4196c32fe1541a41469bb7fccb001f2f258e4612584804027140",
+          "webPath": "models/jade-forms/jade-yue-overview.glb",
+          "bytes": 380952,
+          "sha256": "1c765bb2f3f959ec6a1c4e99272dee64f539c04b5d50847989ba422eabc4f07f",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.337390485724522,
+              0.0000029985096082763008,
+              -0.04967140809761759
+            ],
+            "max": [
+              0.3312034345900102,
+              1.0734375056114294,
+              0.034695714665488604
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1500000,
+      "photo": {
+        "source": "玉品/5玉钺/99907477f0adcb94b5e61c3c6972b007~tplv-be4g95zd3a-448x448.jpeg",
+        "sourceSha256": "a387dec78347fd34e66388a551183216116675a1f800632cdc9da873ededb5f2",
+        "webPath": "collection/jade-forms/jade-yue.webp",
+        "sha256": "6501214add307fb3c5892bc8f153c8352cc2a51fd884829ba3f973d16ebdf894",
+        "bytes": 13286,
+        "association": "Supplied folder reference"
+      }
+    }
+  ]
+}

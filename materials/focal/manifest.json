@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "source": "Poly Haven",
+  "attribution": "Powered by Poly Haven — https://polyhaven.com",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "licenseVerifiedOn": "2026-10-14",
+  "resolution": [
+    1024,
+    1024
+  ],
+  "conversionTool": {
+    "sharp": "0.35.5",
+    "vips": "8.18.7"
+  },
+  "totalTextureBytes": 8854490,
+  "museumScan": false,
+  "materials": [
+    {
+      "material": "plaster",
+      "assetId": "beige_wall_001",
+      "title": "Beige Wall 001",
+      "author": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "url": "https://polyhaven.com/a/beige_wall_001",
+      "physicalMeters": {
+        "width": 3,
+        "height": 3
+      },
+      "sourceDimensionsMillimeters": [
+        3000,
+        3000.000238418579
+      ],
+      "normalConvention": "OpenGL tangent-space normal, +Y; no green-channel inversion",
+      "orientation": "No rotation; subtle, largely non-directional plaster grain.",
+      "usage": "Fine matte beige painted plaster for museum walls.",
+      "channels": {
+        "color": {
+          "path": "/materials/focal/plaster-color.webp",
+          "provenancePath": "/materials/focal/plaster-color.webp.json",
+          "bytes": 21126,
+          "sha256": "883fe13ec49d8fd743cc56f539fa7cd20deea940bf5eb28627a54406ef38a44f",
+          "colorSpace": "sRGB",
+          "meanChannels": [
+            157.901,
+            140.622,
+            119.652
+          ]
+        },
+        "normal": {
+          "path": "/materials/focal/plaster-normal.webp",
+          "provenancePath": "/materials/focal/plaster-normal.webp.json",
+          "bytes": 1432120,
+          "sha256": "223498f5920ce24dffe27620f196527f47cbec0914e058ba1000a955e452e690",
+          "colorSpace": "linear data (no color-space conversion)",
+          "meanChannels": [
+            127.514,
+            127.511,
+            246.388
+          ]
+        },
+        "roughness": {
+          "path": "/materials/focal/plaster-roughness.webp",
+          "provenancePath": "/materials/focal/plaster-roughness.webp.json",
+          "bytes": 466050,
+          "sha256": "f42cc5630541fc1e8fc64d7d838db7a764fa0ae2c7e1295dc9a90f9ece8d35f8",
+          "colorSpace": "linear data (no color-space conversion)",
+          "meanChannels": [
+            158.405,
+            158.405,
+            158.405
+          ]
+        }
+      }
+    },
+    {
+      "material": "timber",
+      "assetId": "wood_table_001",
+      "title": "Wood Table 001",
+      "author": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "url": "https://polyhaven.com/a/wood_table_001",
+      "physicalMeters": {
+        "width": 1.5,
+        "height": 1.5
+      },
+      "sourceDimensionsMillimeters": [
+        1500,
+        1500.0001192092896
+      ],
+      "normalConvention": "OpenGL tangent-space normal, +Y; no green-channel inversion",
+      "orientation": "No rotation; visible grain runs mainly along the image vertical / V axis. Align V to the long architectural member.",
+      "usage": "Clean red-brown varnished wood with fine grain for architectural joinery.",
+      "channels": {
+        "color": {
+          "path": "/materials/focal/timber-color.webp",
+          "provenancePath": "/materials/focal/timber-color.webp.json",
+          "bytes": 284894,
+          "sha256": "ebc0ba5ef1bcf4ca85d279fa800c42b1feb544973d4e29468bae1b34a4f43de1",
+          "colorSpace": "sRGB",
+          "meanChannels": [
+            62.025,
+            25.231,
+            10.484
+          ]
+        },
+        "normal": {
+          "path": "/materials/focal/timber-normal.webp",
+          "provenancePath": "/materials/focal/timber-normal.webp.json",
+          "bytes": 996712,
+          "sha256": "ca154d0c28fe7bddf605995beaeee5612410c1979194ffddb0179d27a67d09f7",
+          "colorSpace": "linear data (no color-space conversion)",
+          "meanChannels": [
+            127.46,
+            127.52,
+            246.328
+          ]
+        },
+        "roughness": {
+          "path": "/materials/focal/timber-roughness.webp",
+          "provenancePath": "/materials/focal/timber-roughness.webp.json",
+          "bytes": 776102,
+          "sha256": "10d31f75a8de3195c33a4f8f54c51fe1354e7d3ef16baac886364c21ca4c553d",
+          "colorSpace": "linear data (no color-space conversion)",
+          "meanChannels": [
+            59.757,
+            59.757,
+            59.757
+          ]
+        }
+      }
+    },
+    {
+      "material": "stone",
+      "assetId": "granite_tile",
+      "title": "Granite Tile",
+      "author": {
+        "Charlotte Baglioni": "All"
+      },
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "url": "https://polyhaven.com/a/granite_tile",
+      "physicalMeters": {
+        "width": 2.3,
+        "height": 2.3
+      },
+      "sourceDimensionsMillimeters": [
+        2299.999952316284,
+        2299.999952316284
+      ],
+      "normalConvention": "OpenGL tangent-space normal, +Y; no green-channel inversion",
+      "orientation": "No rotation; a 5 by 5 grid of roughly 0.46 m square stone slabs fills the 2.3 m scan, without staggered brick courses.",
+      "usage": "Clean dark-gray fine-grained stone with low-contrast narrow joints for a warm dark-brown tinted floor material.",
+      "channels": {
+        "color": {
+          "path": "/materials/focal/stone-color.webp",
+          "provenancePath": "/materials/focal/stone-color.webp.json",
+          "bytes": 335934,
+          "sha256": "bed0369f8fbda011bfc0cab1f77dff252ff52ed53d555b9275ffba376ee276ee",
+          "colorSpace": "sRGB",
+          "meanChannels": [
+            77.596,
+            78.495,
+            78.601
+          ]
+        },
+        "normal": {
+          "path": "/materials/focal/stone-normal.webp",
+          "provenancePath": "/materials/focal/stone-normal.webp.json",
+          "bytes": 1078694,
+          "sha256": "e2ac15d94233bd183b034d46abe230bdaa19c27e27a375a7c67dc538908e8126",
+          "colorSpace": "linear data (no color-space conversion)",
+          "meanChannels": [
+            127.504,
+            127.449,
+            254.728
+          ]
+        },
+        "roughness": {
+          "path": "/materials/focal/stone-roughness.webp",
+          "provenancePath": "/materials/focal/stone-roughness.webp.json",
+          "bytes": 626718,
+          "sha256": "5eb69cf05a3a82df364e7bc345dfdc8e283e69e627fe98569d8d5e7a69b220a0",
+          "colorSpace": "linear data (no color-space conversion)",
+          "meanChannels": [
+            138.584,
+            138.584,
+            138.584
+          ]
+        }
+      }
+    },
+    {
+      "material": "fabric",
+      "assetId": "terlenka",
+      "title": "Terlenka",
+      "author": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "url": "https://polyhaven.com/a/terlenka",
+      "physicalMeters": {
+        "width": 0.265708,
+        "height": 0.2663
+      },
+      "sourceDimensionsMillimeters": [
+        265.70814767607123,
+        266.2999927997589
+      ],
+      "normalConvention": "OpenGL tangent-space normal, +Y; no green-channel inversion",
+      "orientation": "No rotation; warp and weft follow the source U/V axes.",
+      "usage": "Cream fine-woven polyester for display-case lining.",
+      "channels": {
+        "color": {
+          "path": "/materials/focal/fabric-color.webp",
+          "provenancePath": "/materials/focal/fabric-color.webp.json",
+          "bytes": 372806,
+          "sha256": "b98ee9d6a62db16e3a410d89acfd24f4039ead4b2b445aaa132ac4f9f37a110e",
+          "colorSpace": "sRGB",
+          "meanChannels": [
+            196.945,
+            174.802,
+            153.123
+          ]
+        },
+        "normal": {
+          "path": "/materials/focal/fabric-normal.webp",
+          "provenancePath": "/materials/focal/fabric-normal.webp.json",
+          "bytes": 1727564,
+          "sha256": "9ae379d3ec30e1e966bb80ca73e1bb8e06b7a88e45474b58e0c63997fc92a0ac",
+          "colorSpace": "linear data (no color-space conversion)",
+          "meanChannels": [
+            127.466,
+            127.492,
+            252.361
+          ]
+        },
+        "roughness": {
+          "path": "/materials/focal/fabric-roughness.webp",
+          "provenancePath": "/materials/focal/fabric-roughness.webp.json",
+          "bytes": 735770,
+          "sha256": "6d72181a7df1fdcc27993fde3ec8f2fcde8dd9b3b26bdfe1c8d63b17b9c69ef2",
+          "colorSpace": "linear data (no color-space conversion)",
+          "meanChannels": [
+            169.43,
+            169.43,
+            169.43
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "prompt": "Source asset acquisition, not AI generation: Cream fine-woven polyester for display-case lining. Original nor_gl map from Poly Haven Terlenka (terlenka), downloaded via its official API and only resized/converted to WebP. This is a general-purpose photographic PBR material, not a scan of Sanxingdui Museum.",
+  "generator": "scripts/fetch-focal-materials.mjs (download and format conversion only)",
+  "material": "fabric",
+  "channel": "normal",
+  "assetId": "terlenka",
+  "author": {
+    "colormass": "Photography",
+    "Rico Cilliers": "Processing"
+  },
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "licenseVerifiedOn": "2026-10-14",
+  "url": "https://polyhaven.com/a/terlenka",
+  "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/terlenka/terlenka_nor_gl_1k.png",
+  "apiUrl": "https://api.polyhaven.com/files/terlenka",
+  "sourceFile": "research/focal-material-sources/terlenka/terlenka_nor_gl_1k.png",
+  "sourceSha256": "0e37deb6bdd98c4b00b27045189452fe2d6a2e673a48b3037652d48882d82490",
+  "officialSourceMd5": "8492239981146c7da24061a2b628c961",
+  "sourceBytes": 5820756,
+  "sourceDimensions": {
+    "width": 1024,
+    "height": 1026
+  },
+  "physicalMeters": {
+    "width": 0.265708,
+    "height": 0.2663
+  },
+  "sourceDimensionsMillimeters": [
+    265.70814767607123,
+    266.2999927997589
+  ],
+  "normalConvention": "OpenGL tangent-space normal, +Y; no green-channel inversion",
+  "orientation": "No rotation; warp and weft follow the source U/V axes.",
+  "colorSpace": "linear data (no color-space conversion)",
+  "conversion": {
+    "width": 1024,
+    "height": 1024,
+    "format": "webp",
+    "colorQuality": null,
+    "lossless": true,
+    "colorEdits": false,
+    "normalGreenChannelFlipped": false
+  },
+  "sha256": "9ae379d3ec30e1e966bb80ca73e1bb8e06b7a88e45474b58e0c63997fc92a0ac",
+  "bytes": 1727564,
+  "meanChannels": [
+    127.466,
+    127.492,
+    252.361
+  ],
+  "rangeChannels": [
+    [
+      95,
+      161
+    ],
+    [
+      92,
+      166
+    ],
+    [
+      248,
+      255
+    ]
+  ],
+  "measuredMuseumMaterial": false
+}

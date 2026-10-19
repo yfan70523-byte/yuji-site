@@ -1,0 +1,511 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-18T17:04:03.770997+00:00",
+  "method": "Cycles sky/fixtures direct + all indirect; SUN direct subtracted and evaluated with runtime directional shadow",
+  "blenderVersion": "4.5.3 LTS",
+  "device": "CPU",
+  "samples": 512,
+  "adaptiveSampling": true,
+  "adaptiveThreshold": 0.01,
+  "adaptiveMinSamples": 64,
+  "normalMapsBaked": false,
+  "denoising": {
+    "method": "OpenImageDenoise RT HDR",
+    "device": "CPU",
+    "islands": 871,
+    "processedIslands": 871,
+    "islandIsolation": "independent buffers and alpha masks",
+    "edgeExtensionPixels": 16,
+    "seconds": 22.519
+  },
+  "bounces": {
+    "total": 6,
+    "diffuse": 4,
+    "glossy": 4,
+    "transmission": 4
+  },
+  "bakeSize": 2048,
+  "marginPixels": 4,
+  "RGBMRange": 256.0,
+  "atlasLinearDensityWeights": {
+    "stair": 3.0,
+    "column": 3.0,
+    "displayBase": 3.0
+  },
+  "emissiveSurfaceSampling": "FRONT_BACK",
+  "passes": {
+    "direct": true,
+    "indirect": true,
+    "color": false
+  },
+  "worldStrength": 0.0,
+  "lightScale": 1.0,
+  "texture": {
+    "file": "irradiance.png",
+    "encoding": "RGBM",
+    "range": 256.0,
+    "colorSpace": "NoColorSpace",
+    "flipY": false,
+    "decode": "texel.rgb * texel.a * 256.0",
+    "uvAttribute": "uv1",
+    "albedoIncluded": false,
+    "viewTransformApplied": false
+  },
+  "geometry": {
+    "file": "geometry.glb",
+    "coordinates": "Three.js Y-up, baked world transforms",
+    "uv0": "original texture UV0, unchanged",
+    "uv1": "u, 1 - Blender BakeUV v",
+    "sourceIdExtra": "museumSourceId",
+    "materialIdExtra": "museumMaterial"
+  },
+  "objects": [
+    {
+      "id": "atrium-floor:true",
+      "material": "floor",
+      "vertices": 3572,
+      "triangles": 1368
+    },
+    {
+      "id": "atrium-border:true",
+      "material": "border",
+      "vertices": 1384,
+      "triangles": 584
+    },
+    {
+      "id": "atrium-stone:true",
+      "material": "stone",
+      "vertices": 18639,
+      "triangles": 6990
+    },
+    {
+      "id": "atrium-displayBase:true",
+      "material": "displayBase",
+      "vertices": 9870,
+      "triangles": 3300
+    },
+    {
+      "id": "atrium-wall:true",
+      "material": "wall",
+      "vertices": 8355,
+      "triangles": 3288
+    },
+    {
+      "id": "atrium-ceiling:true",
+      "material": "ceiling",
+      "vertices": 6366,
+      "triangles": 2240
+    },
+    {
+      "id": "atrium-stair:true",
+      "material": "stair",
+      "vertices": 2235,
+      "triangles": 784
+    },
+    {
+      "id": "atrium-column:true",
+      "material": "column",
+      "vertices": 2439,
+      "triangles": 1024
+    },
+    {
+      "id": "art-artBacking:true",
+      "material": "artBacking",
+      "vertices": 2686,
+      "triangles": 900
+    },
+    {
+      "id": "art-artLandscape:true",
+      "material": "artLandscape",
+      "vertices": 4,
+      "triangles": 2
+    },
+    {
+      "id": "art-artRiver:true",
+      "material": "artRiver",
+      "vertices": 6,
+      "triangles": 2
+    },
+    {
+      "id": "art-artJade:true",
+      "material": "artJade",
+      "vertices": 14056,
+      "triangles": 4688
+    },
+    {
+      "id": "art-artGraphite:true",
+      "material": "artGraphite",
+      "vertices": 1796,
+      "triangles": 600
+    },
+    {
+      "id": "art-artRitual:true",
+      "material": "artRitual",
+      "vertices": 56,
+      "triangles": 20
+    }
+  ],
+  "sourceMeshes": 28,
+  "bakedMeshes": 14,
+  "triangles": 25790,
+  "lights": [
+    {
+      "id": "source-AREA-0",
+      "type": "area",
+      "energyWatts": 418.6172180175781
+    },
+    {
+      "id": "source-AREA-1",
+      "type": "area",
+      "energyWatts": 418.6172180175781
+    },
+    {
+      "id": "source-AREA-2",
+      "type": "area",
+      "energyWatts": 418.6172180175781
+    },
+    {
+      "id": "source-AREA-3",
+      "type": "area",
+      "energyWatts": 418.6172180175781
+    },
+    {
+      "id": "source-AREA-4",
+      "type": "area",
+      "energyWatts": 418.6172180175781
+    },
+    {
+      "id": "source-AREA-5",
+      "type": "area",
+      "energyWatts": 418.6172180175781
+    },
+    {
+      "id": "source-AREA-6",
+      "type": "area",
+      "energyWatts": 59.376102447509766
+    },
+    {
+      "id": "source-AREA-7",
+      "type": "area",
+      "energyWatts": 59.376102447509766
+    },
+    {
+      "id": "source-AREA-8",
+      "type": "area",
+      "energyWatts": 59.376102447509766
+    },
+    {
+      "id": "source-AREA-9",
+      "type": "area",
+      "energyWatts": 59.376102447509766
+    },
+    {
+      "id": "source-AREA-10",
+      "type": "area",
+      "energyWatts": 59.376102447509766
+    },
+    {
+      "id": "source-AREA-11",
+      "type": "area",
+      "energyWatts": 59.376102447509766
+    },
+    {
+      "id": "atrium-daylight-sun",
+      "type": "sun",
+      "irradiance": 5.199999809265137,
+      "angularDiameter": 0.00930000003427267
+    },
+    {
+      "id": "source-AREA-13",
+      "type": "area",
+      "energyWatts": 5428.671875
+    },
+    {
+      "id": "source-AREA-14",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-15",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-16",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-17",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-18",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-19",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-20",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-21",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-22",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-23",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-24",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-25",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-26",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-27",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-28",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-29",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-30",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-31",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-32",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-33",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-34",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-35",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-36",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-37",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-38",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-39",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-40",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-41",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-42",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-43",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-44",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-45",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-46",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-47",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-48",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    },
+    {
+      "id": "source-AREA-49",
+      "type": "area",
+      "energyWatts": 19.111879348754883
+    }
+  ],
+  "statistics": {
+    "maxLinearValue": 53.99455642700195,
+    "clippedPixels": 0,
+    "nonzeroPixels": 1227420,
+    "negativeComponents": 0,
+    "p50LinearMaximum": 0.0,
+    "p95LinearMaximum": 0.6141754686832426,
+    "p99LinearMaximum": 1.7946108508110015
+  },
+  "rawStatistics": {
+    "maxLinearValue": 86.88585662841797,
+    "clippedPixels": 0,
+    "nonzeroPixels": 1089357,
+    "negativeComponents": 0,
+    "p50LinearMaximum": 0.0,
+    "p95LinearMaximum": 0.6175437003374092,
+    "p99LinearMaximum": 1.8021285545825916
+  },
+  "timingSeconds": {
+    "prepare": 28.808,
+    "bake": 1600.676,
+    "encodeAndExport": 149.893,
+    "total": 1779.377
+  },
+  "source": {
+    "scene": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\atrium-bake\\scene.json",
+    "sceneSha256": "11628449300917b4d609f98640e1d8ded9b9760ccabe250e69b58a382204ae5c",
+    "scriptSha256": "52a5dfa4283c0071f9bdbf51a82411ff0dcac37d02c82de59d08906c8507e474",
+    "textures": [
+      {
+        "path": "public/materials/atrium-daylight/floor-color.webp",
+        "sha256": "b5f19e487c93323710320eb70b032c9ac22002f41784c0c1608036a7dda284ab"
+      },
+      {
+        "path": "public/materials/atrium-daylight/floor-normal.webp",
+        "sha256": "c2729dc7ad9105c6b6a841b0437e39390d2cf346128d546358d4a8662e366921"
+      },
+      {
+        "path": "public/materials/atrium-daylight/floor-roughness.webp",
+        "sha256": "7dc9eef98db6abc7d80cc0ccfee252c2590f6088724f779897ce213c17bc25ec"
+      },
+      {
+        "path": "public/materials/atrium-daylight/stone-color.webp",
+        "sha256": "68e59d83ed8cb3639d1dc9e6fc2f215ee2ca346d180925a00eacc2bfcd5d4a35"
+      },
+      {
+        "path": "public/materials/atrium-daylight/stone-normal.webp",
+        "sha256": "fbc05c43e3cc4ff3bc93c648bfdc35b9c0da2a0e74adab668f61c845d1e07f80"
+      },
+      {
+        "path": "public/materials/atrium-daylight/stone-roughness.webp",
+        "sha256": "7d0923ef6918694bcb98d62b6c11ab877aeb519d2c642475e380d1cf7e66ec69"
+      },
+      {
+        "path": "public/materials/atrium-daylight/wall-roughness.webp",
+        "sha256": "bc53fa4621552cdf03c30a9069e7092484ac45e27aec09478297f703a195ec9a"
+      },
+      {
+        "path": "public/materials/focal/plaster-normal.webp",
+        "sha256": "223498f5920ce24dffe27620f196527f47cbec0914e058ba1000a955e452e690"
+      },
+      {
+        "path": "public/materials/focal/plaster-roughness.webp",
+        "sha256": "f42cc5630541fc1e8fc64d7d838db7a764fa0ae2c7e1295dc9a90f9ece8d35f8"
+      },
+      {
+        "path": "public/materials/atrium-art/landscape.webp",
+        "sha256": "9b6a206258bbd06526e0f2b94c9825166804f9659958e2960c0d12f722890825"
+      },
+      {
+        "path": "public/materials/atrium-art/river.webp",
+        "sha256": "599bb320d7b575803844be2aade48cebf7f2b8a7c7a1173bc98111c0d50a2ff7"
+      },
+      {
+        "path": "public/materials/atrium-art/graphite.webp",
+        "sha256": "6e3666db36d8431bbc5445df11d0808c9249a82139ed6198fd811bd14d3e33df"
+      },
+      {
+        "path": "public/materials/atrium-art/ritual.webp",
+        "sha256": "361ad5584594490a2a98ad9c228b2140eb245437abc3c39bb180dad871c7edf6"
+      }
+    ],
+    "baseScriptSha256": "acc26cefe86229fe47afbdf80c296ae1c4cb0808a0d561dee336c99c07d7b3b1"
+  },
+  "files": [
+    {
+      "path": "irradiance.png",
+      "bytes": 2398806,
+      "sha256": "137964ec0b0905b9d2fdf22eb1a9966b5708a5ed915ca379c518de37923653b6"
+    },
+    {
+      "path": "geometry.glb",
+      "bytes": 3183900,
+      "sha256": "f1d1fc922bcb2720948926464bb1de6ccfe3c0a88a3265bbd5ae57a67308ed42"
+    }
+  ],
+  "floatDebugImage": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\atrium-bake\\irradiance.exr",
+  "denoisedFloatDebugImage": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\atrium-bake\\irradiance.denoised.exr",
+  "provenance": {
+    "lighting": "Computed from the supplied static 3D geometry, area/point/spot lights and emissive surfaces using Cycles path tracing.",
+    "photographicMaterials": "Source texture files are tracked by hashes; photographic PBR materials are not scans of the original museum.",
+    "geometry": "Reference reconstruction, not a measured 1:1 survey.",
+    "notABackdrop": true
+  },
+  "region": "atrium",
+  "sunDirectRuntime": true,
+  "dynamicPolicy": "Moving doors excluded from targets and occluders; no closed-door baked shadows."
+}

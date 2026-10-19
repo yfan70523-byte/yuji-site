@@ -1,0 +1,70 @@
+{
+  "generator": "scripts/build-museum-textures.mjs",
+  "source": "Original deterministic procedural synthesis; no external images or artifact scans",
+  "purpose": "Fictional museum architecture and exhibition furniture only",
+  "files": [
+    {
+      "file": "basalt-color.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 18224,
+      "colorSpace": "sRGB"
+    },
+    {
+      "file": "basalt-normal.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 264664,
+      "colorSpace": "linear"
+    },
+    {
+      "file": "basalt-roughness.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 21518,
+      "colorSpace": "linear"
+    },
+    {
+      "file": "stone-color.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 21154,
+      "colorSpace": "sRGB"
+    },
+    {
+      "file": "stone-normal.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 264664,
+      "colorSpace": "linear"
+    },
+    {
+      "file": "stone-roughness.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 47956,
+      "colorSpace": "linear"
+    },
+    {
+      "file": "metal-color.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 15134,
+      "colorSpace": "sRGB"
+    },
+    {
+      "file": "metal-normal.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 36130,
+      "colorSpace": "linear"
+    },
+    {
+      "file": "metal-roughness.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 15854,
+      "colorSpace": "linear"
+    }
+  ]
+}

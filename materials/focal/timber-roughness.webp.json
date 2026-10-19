@@ -1,0 +1,67 @@
+{
+  "prompt": "Source asset acquisition, not AI generation: Clean red-brown varnished wood with fine grain for architectural joinery. Original Rough map from Poly Haven Wood Table 001 (wood_table_001), downloaded via its official API and only resized/converted to WebP. This is a general-purpose photographic PBR material, not a scan of Sanxingdui Museum.",
+  "generator": "scripts/fetch-focal-materials.mjs (download and format conversion only)",
+  "material": "timber",
+  "channel": "roughness",
+  "assetId": "wood_table_001",
+  "author": {
+    "Dimitrios Savva": "Photography",
+    "Rico Cilliers": "Processing"
+  },
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "licenseVerifiedOn": "2026-10-14",
+  "url": "https://polyhaven.com/a/wood_table_001",
+  "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_table_001/wood_table_001_rough_1k.jpg",
+  "apiUrl": "https://api.polyhaven.com/files/wood_table_001",
+  "sourceFile": "research/focal-material-sources/wood_table_001/wood_table_001_rough_1k.jpg",
+  "sourceSha256": "a2ca9ae89dfe7b8e2e5e92f0aa43467845417de8a50205b5852ef0d57c7624f9",
+  "officialSourceMd5": "05b60bd20a1cc4355c5d73a99b245d44",
+  "sourceBytes": 237261,
+  "sourceDimensions": {
+    "width": 1024,
+    "height": 1024
+  },
+  "physicalMeters": {
+    "width": 1.5,
+    "height": 1.5
+  },
+  "sourceDimensionsMillimeters": [
+    1500,
+    1500.0001192092896
+  ],
+  "normalConvention": "OpenGL tangent-space normal, +Y; no green-channel inversion",
+  "orientation": "No rotation; visible grain runs mainly along the image vertical / V axis. Align V to the long architectural member.",
+  "colorSpace": "linear data (no color-space conversion)",
+  "conversion": {
+    "width": 1024,
+    "height": 1024,
+    "format": "webp",
+    "colorQuality": null,
+    "lossless": true,
+    "colorEdits": false,
+    "normalGreenChannelFlipped": false
+  },
+  "sha256": "10d31f75a8de3195c33a4f8f54c51fe1354e7d3ef16baac886364c21ca4c553d",
+  "bytes": 776102,
+  "meanChannels": [
+    59.757,
+    59.757,
+    59.757
+  ],
+  "rangeChannels": [
+    [
+      0,
+      127
+    ],
+    [
+      0,
+      127
+    ],
+    [
+      0,
+      127
+    ]
+  ],
+  "measuredMuseumMaterial": false
+}

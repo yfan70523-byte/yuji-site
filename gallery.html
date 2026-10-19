@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <link rel="icon" href="./brand/yuji-mark.svg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#302b26">
+  <meta name="description" content="玉记玉器模型展。旋转查看玉器模型，阅读形制、历史与馆藏参考资料。">
+  <title>玉记 · 玉器模型展</title>
+  <link rel="icon" href="./brand/yuji-mark.svg">
+  <link rel="preload" href="./fonts/yuji-ui.woff" as="font" type="font/woff" crossorigin>
+  <script type="module" crossorigin src="./assets/journey-B--BFsDL.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-P2Xu9kJm.js">
+  <link rel="modulepreload" crossorigin href="./assets/additional-collection-7ZsVItJa.js">
+  <link rel="modulepreload" crossorigin href="./assets/preload-helper-CRzLMJPS.js">
+  <link rel="stylesheet" crossorigin href="./assets/additional-collection-B58Cn5m7.css">
+  <link rel="stylesheet" crossorigin href="./assets/journey-5pmwhUO5.css">
+</head>
+<body>
+  <div class="exhibition" id="exhibition">
+    <header class="gallery-header">
+      <a class="brand" href="./" aria-label="玉记首页"><img class="museum-mark" src="./brand/yuji-mark.svg" alt=""><span class="brand-wordmark">玉记</span><span class="brand-name">礼通天地 · 玉见中华</span></a>
+      <div class="header-end"><button id="forms-topic" class="topic-button" aria-pressed="false">器形专题</button><button id="about" class="icon-button" aria-label="关于这场展览"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7v1"/></svg></button></div>
+    </header>
+    <main class="gallery" id="gallery-stage" data-state="loading" aria-label="玉琮展厅">
+      <div class="object-label"><span id="object-count" class="object-count">01 / 06</span><h1 id="object-title">玉琮</h1><p id="object-date"></p><p id="object-museum"></p><label class="period-selector">本时期展品<select id="period-exhibits" aria-label="本时期展品"></select></label></div>
+      <div class="era-label"><h2 id="era-title">良渚文化</h2></div>
+      <div id="canvas-host" class="canvas-host" hidden></div>
+      <div id="model-frame" aria-hidden="true"></div>
+      <figure id="photo-view" class="photo-view" hidden>
+        <img id="artifact-photo" src="./collection/liangzhu-tall.jpg" alt="良渚文化高节玉琮实物图" draggable="false">
+        <div id="photo-error" class="photo-message" hidden><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="9" y="9" width="30" height="30" rx="2"/><circle cx="24" cy="24" r="9"/></svg><p>图片暂未载入</p><span>可切回三维，继续观察器物；刷新可重试图片</span></div>
+        <figcaption><span id="photo-credit"></span><a id="photo-source" href="#" target="_blank" rel="noopener noreferrer">馆方资料 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M7 6h11v11"/></svg></a></figcaption>
+      </figure>
+      <div class="viewer-tools" role="group" aria-label="三维观察工具" hidden>
+        <button id="zoom-in" class="icon-button" aria-label="放大模型"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></button>
+        <button id="zoom-out" class="icon-button" aria-label="缩小模型"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg></button>
+        <button id="reset" class="icon-button" aria-label="复位模型"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9a8 8 0 1 1 0 6M5 4v5h5"/></svg></button>
+        <button id="toggle-glass" class="icon-button" aria-label="隐藏玻璃罩" aria-pressed="true" title="隐藏玻璃罩，近看纹饰"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 4v10l-8 4-8-4V7l8-4Zm0 8v10M4 7l8 4 8-4M8 5l8 4"/></svg></button>
+        <button id="split" class="icon-button" aria-label="分看构件" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5 9-5ZM3 12l9 5 9-5M3 16l9 5 9-5"/></svg></button>
+      </div>
+      <div class="view-switch" role="group" aria-label="展示方式"><button id="mode-3d" aria-pressed="false">三维</button><button id="mode-photo" aria-pressed="true">实物参考</button></div>
+      <div class="learn-area"><button id="learn" class="exhibit-plaque" aria-haspopup="dialog" aria-label="点击展品铭牌阅读介绍">
+        <span class="plaque-index" id="plaque-number" aria-hidden="true">01</span>
+        <span class="plaque-copy"><span id="plaque-title">玉琮</span><span id="plaque-era"></span></span>
+        <span class="plaque-action"><span>点击玉器，了解历史</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span>
+      </button><p id="stage-status" role="status" aria-live="polite"></p></div>
+    </main>
+    <footer class="journey-footer"><div class="journey-navigation"><button id="previous" class="page-arrow" aria-label="上一件"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7"/></svg></button><nav id="timeline" aria-label="玉琮时间线"></nav><button id="next" class="page-arrow" aria-label="下一件"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 5 7 7-7 7"/></svg></button></div><div class="footer-caption"><span>切换展品</span><span>拖动旋转 · 双指缩放</span></div></footer>
+  </div>
+  <dialog id="story-card" class="story-card" aria-labelledby="card-title">
+    <button id="close-card" class="close-card" aria-label="收起介绍"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    <div class="card-heading"><h2 id="card-title"></h2><p id="card-date"></p></div>
+    <div class="card-tabs" role="tablist" aria-label="器物介绍"><button id="tab-history" role="tab" aria-selected="true" aria-controls="panel-history">历史</button><button id="tab-form" role="tab" aria-selected="false" aria-controls="panel-form" tabindex="-1">形制</button><button id="tab-source" role="tab" aria-selected="false" aria-controls="panel-source" tabindex="-1">来源</button></div>
+    <div class="card-content"><section id="panel-history" role="tabpanel" aria-labelledby="tab-history"><p id="card-summary" class="card-summary"></p><details id="history-detail"><summary>展开历史介绍</summary><p id="card-history"></p></details></section><section id="panel-form" role="tabpanel" aria-labelledby="tab-form" hidden><dl id="card-features"></dl><p id="card-dimensions" class="card-note"></p></section><section id="panel-source" role="tabpanel" aria-labelledby="tab-source" hidden><p id="card-collection"></p><a id="catalog-link" target="_blank" rel="noopener noreferrer">阅读参考资料</a><p id="model-note" class="card-note"></p><p id="rights-note" class="card-note"></p></section></div>
+  </dialog>
+  <dialog id="about-card" class="story-card about-card" aria-labelledby="about-title"><button class="close-card" id="close-about" aria-label="关闭展览说明"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button><h2 id="about-title">展览说明</h2><p>从良渚、齐家到宋明清，以玉琮的形制与纹饰串联不同地域和时代的用玉传统。</p><p>第一单元以玉琮为主线，第二单元呈现璧、钺、冠饰与佩玉。转动器物、比较细节，阅读礼仪、工艺与赏鉴的故事。</p><p>展品介绍中的参考资料及入口展墙的延伸阅读，可通过资料链接与参观菜单查阅。</p><a class="book-link" href="./book.html">阅读「从玉琮，到香熏」图文展 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></dialog>
+  <noscript><div class="no-script"><h1>玉器模型展</h1><p>点击式展厅需要启用 JavaScript。你也可以直接阅读保留的图文展。</p><a href="./book.html">打开玉琮图文展</a></div></noscript>
+</body>
+</html>

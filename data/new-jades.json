@@ -1,0 +1,1545 @@
+{
+  "schemaVersion": 1,
+  "source": "User supplied 玉琮.zip; source names are labels, not authenticated museum identifiers",
+  "process": "Preserved source PBR materials; welded and simplified; 1024/2048 WebP; Meshopt; decoded Khronos validation",
+  "models": [
+    {
+      "id": "liangzhu-early",
+      "title": "良渚早期两节兽面纹玉琮",
+      "source": "玉琮/1新石器时代/良渚早期两节兽面纹玉琮/c03fad2f302e7a9d944a10042c6bd6b0.glb",
+      "sourceSha256": "ddc3bcf35c7a2e03965f8f64572fcf508d55f77b263d3578b87b2963e9a63506",
+      "sourceBytes": 81836888,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/new-jades/liangzhu-early-roaming.glb",
+          "sha256": "94900dcd7a6f68e009d84b6559746bf7fcbdfa747b8a87b963951f78fb6a4257",
+          "bytes": 1569224,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.4152579057851309,
+              0.000013149425109826307,
+              -0.465136027597316
+            ],
+            "max": [
+              0.42161292320876065,
+              0.592606003372457,
+              0.4495321222951093
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/new-jades/liangzhu-early-detail.glb",
+          "sha256": "cd6b662e905037bda51b97f562848f522e66498168059aa1c3c22845ba3ea81b",
+          "bytes": 5909512,
+          "triangles": 149996,
+          "bounds": {
+            "min": [
+              -0.415247238616513,
+              0.00001848092880740726,
+              -0.4651390376308701
+            ],
+            "max": [
+              0.4217572281165588,
+              0.592710642307634,
+              0.44955313305564426
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/new-jades/liangzhu-early-roaming.glb",
+          "sourceSha256": "94900dcd7a6f68e009d84b6559746bf7fcbdfa747b8a87b963951f78fb6a4257",
+          "webPath": "models/new-jades/liangzhu-early-overview.glb",
+          "bytes": 421144,
+          "sha256": "44e703b769fe822dd7679ab2da90f46663d8e3956c4cf8c1d0411bcf558ea89e",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.41543934876006283,
+              0.000034104928614386854,
+              -0.4651360275963784
+            ],
+            "max": [
+              0.4210685942839648,
+              0.5926129819493535,
+              0.449532122296047
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1497392,
+      "photo": {
+        "source": "玉琮/1新石器时代/良渚早期两节兽面纹玉琮/良渚早期两节兽面纹玉琮.jpg",
+        "sourceSha256": "5d9ff0bf667b6a4d1c3d4ee591f2b8ec88ec40937a94719360e64e2895aaa555",
+        "webPath": "collection/new-jades/liangzhu-early.webp",
+        "sha256": "dacabe0f6a189bf06f2325225ecb36256af30e452b72a4dc9a0d353449a5c7a4",
+        "bytes": 211780
+      }
+    },
+    {
+      "id": "qijia-plain",
+      "title": "齐家早期素面玉琮",
+      "source": "玉琮/1新石器时代/齐家早期素面玉琮/3a72c81c6f6c8c59621015a609cf5d6c.glb",
+      "sourceSha256": "d6f94d09fc429fe47b65f92288cfeb38c9e8c2998325a857a47910975ee142ee",
+      "sourceBytes": 69528944,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/new-jades/qijia-plain-roaming.glb",
+          "sha256": "967c0351f2ab90cf8785347486a13f1095f5310fcf7728ffddf60af9de39a134",
+          "bytes": 1082456,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.21659337156466194,
+              0.00005096917368319076,
+              -0.26380783467197133
+            ],
+            "max": [
+              0.21757936649969764,
+              1.0863781426538792,
+              0.2647849689126741
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/new-jades/qijia-plain-detail.glb",
+          "sha256": "bf06133e5e92040aabd8bed4687068c6eb5a3237c31f1744398c6d29d54bee36",
+          "bytes": 3938716,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.21665881774690562,
+              0.00001696935093076224,
+              -0.26381713468619944
+            ],
+            "max": [
+              0.21760182283189708,
+              1.0863981746687084,
+              0.2648682710538124
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/new-jades/qijia-plain-roaming.glb",
+          "sourceSha256": "967c0351f2ab90cf8785347486a13f1095f5310fcf7728ffddf60af9de39a134",
+          "webPath": "models/new-jades/qijia-plain-overview.glb",
+          "bytes": 301396,
+          "sha256": "11831fbf6e8256ee8a1eeb4178c4d3e7b730b6fdcd84f30a8b6b1af322ae6be5",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.21526141745430327,
+              0.0017742482678999583,
+              -0.26380534939117334
+            ],
+            "max": [
+              0.21757300946967398,
+              1.08637814267155,
+              0.2638214272722731
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1499904,
+      "photo": {
+        "source": "玉琮/1新石器时代/齐家早期素面玉琮/齐家早期素面玉琮.png",
+        "sourceSha256": "91f1c74d2462207433d6a4ae2158e1dd579b58b48ecf6780522f33a554651f2e",
+        "webPath": "collection/new-jades/qijia-plain.webp",
+        "sha256": "f346032bd04cabb4c9aac955740e454b2a9f165d88a577839b966450be119c7b",
+        "bytes": 30444
+      }
+    },
+    {
+      "id": "liangzhu-tall",
+      "title": "良渚19节高玉琮",
+      "source": "玉琮/2新石器时代晚期/良渚19节高玉琮/e124b953ee19cf140dc515254ddcee46.glb",
+      "sourceSha256": "f222662bdb506bc080c2064aeed76250699ecc4e935ce2afea5859bb1a6455c6",
+      "sourceBytes": 84710520,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/new-jades/liangzhu-tall-roaming.glb",
+          "sha256": "33b6e28b7a4785b10142783f2f4c06e5919c3ce4b7b8ec8f6bf687104c0c2dd0",
+          "bytes": 2235316,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.08572426327924505,
+              0.000013992612696855922,
+              -0.08851969643032775
+            ],
+            "max": [
+              0.08576425799588934,
+              1.1872451688048309,
+              0.08684583923844831
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/new-jades/liangzhu-tall-detail.glb",
+          "sha256": "de41ff5a79475858f4970aacf1d4e2bdb951561ea21d4a5d2d2aa16e182c2bb7",
+          "bytes": 7194004,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.08578135410079916,
+              0.000013992612949653704,
+              -0.08852218263037132
+            ],
+            "max": [
+              0.08578035572299918,
+              1.1872501759099376,
+              0.08688030293076457
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/new-jades/liangzhu-tall-roaming.glb",
+          "sourceSha256": "33b6e28b7a4785b10142783f2f4c06e5919c3ce4b7b8ec8f6bf687104c0c2dd0",
+          "webPath": "models/new-jades/liangzhu-tall-overview.glb",
+          "bytes": 622184,
+          "sha256": "352e88933b7eb4a20d5cb50e1c5ce63ccd5459389f7ac3f2039b4e4bf4060cfd",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.08565683609159963,
+              0.0003038304964069205,
+              -0.08851530520035954
+            ],
+            "max": [
+              0.08576929032117017,
+              1.1871727078429593,
+              0.08680522240584633
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1500000,
+      "photo": {
+        "source": "玉琮/2新石器时代晚期/良渚19节高玉琮/R-C.jpg",
+        "sourceSha256": "3964170fb38cea92a3d7056051f95c77c4e8c27fe41b0fe9b2e60fe7715b0cc7",
+        "webPath": "collection/new-jades/liangzhu-tall.webp",
+        "sha256": "32bff8f379023dec6775f932e7e43baf0dfb437dedda17aa30fdeae648b867d5",
+        "bytes": 85406
+      }
+    },
+    {
+      "id": "liangzhu-king",
+      "title": "良渚玉琮王",
+      "source": "玉琮/2新石器时代晚期/良渚玉琮王/aa9bb9d5c927c132c1df52aa8dab7cb4.glb",
+      "sourceSha256": "a807104e256065e609faa873a12f5eccf28263c6d1f86e7e691739e2d269da2a",
+      "sourceBytes": 80052880,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/new-jades/liangzhu-king-roaming.glb",
+          "sha256": "974551b7786f418b99672a9549c28028f77dc7ec1349a726dc160a1a417661d1",
+          "bytes": 1499808,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.4429920017719269,
+              0.000336999517182468,
+              -0.44782482496272347
+            ],
+            "max": [
+              0.4486519992351532,
+              0.445438057237251,
+              0.44041783925417594
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/new-jades/liangzhu-king-detail.glb",
+          "sha256": "5e5c277b663d2c85fff6ecf50e7ed7373063c34091c18b2d2f505394c4038204",
+          "bytes": 5829236,
+          "triangles": 149994,
+          "bounds": {
+            "min": [
+              -0.44297099113464355,
+              0.000023712382774321306,
+              -0.44792529885134436
+            ],
+            "max": [
+              0.44916701316833496,
+              0.44597035911727895,
+              0.4404283101783395
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/new-jades/liangzhu-king-roaming.glb",
+          "sourceSha256": "974551b7786f418b99672a9549c28028f77dc7ec1349a726dc160a1a417661d1",
+          "webPath": "models/new-jades/liangzhu-king-overview.glb",
+          "bytes": 402376,
+          "sha256": "9cfcc584d4abefb7b45178f3271ae1c3f3e47ece61b8c9bd9044a1399923b898",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.4411698369406192,
+              0.005438575186897027,
+              -0.44742534737960316
+            ],
+            "max": [
+              0.4484888202950361,
+              0.44680924566333147,
+              0.4396376111971772
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1495682,
+      "photo": {
+        "source": "玉琮/2新石器时代晚期/良渚玉琮王/c2650f781255f8273ce71bfc6f9535e6.png",
+        "sourceSha256": "3f5c78b0467320880294f119d90632273361821bd2eb1f2a1564581769d19287",
+        "webPath": "collection/new-jades/liangzhu-king.webp",
+        "sha256": "d294e0c3168665205560f67f07aba12f1b5bed0a632063cfc190917402e7e612",
+        "bytes": 25786
+      }
+    },
+    {
+      "id": "fuhao-cord",
+      "title": "妇好墓弦纹玉琮",
+      "source": "玉琮/3商代/妇好墓弦纹玉琮/efaf9161921db7fb01706886e9669349.glb",
+      "sourceSha256": "bc32772c94477e2a9a2df234078fcaef2c4f515f3ee01e9d299810f93d649be4",
+      "sourceBytes": 76599928,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/new-jades/fuhao-cord-roaming.glb",
+          "sha256": "08b0b287b458d8782d170c3aea95a5c9ed3f10f43bcf94b4c0f8735849ea8de2",
+          "bytes": 1466424,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.25044175570775856,
+              0.0001289753489790435,
+              -0.2736102427660949
+            ],
+            "max": [
+              0.2498087543802439,
+              1.080094105969506,
+              0.2731783487654088
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/new-jades/fuhao-cord-detail.glb",
+          "sha256": "ad937c5bf58763691a31d79a78e9751711f531d08ac4e849022cc31d4a034a76",
+          "bytes": 5352268,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.2506580177294214,
+              0.0000039738132989741715,
+              -0.2736133575055842
+            ],
+            "max": [
+              0.24981802437176304,
+              1.0801002193590856,
+              0.27334048191233096
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/new-jades/fuhao-cord-roaming.glb",
+          "sourceSha256": "08b0b287b458d8782d170c3aea95a5c9ed3f10f43bcf94b4c0f8735849ea8de2",
+          "webPath": "models/new-jades/fuhao-cord-overview.glb",
+          "bytes": 400660,
+          "sha256": "b2a31fdd584f88176e369f0b1c11012eca000fba8ec8e1e4c455916aa44b4272",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.2501745668535111,
+              0.000919869736951906,
+              -0.27367053482917364
+            ],
+            "max": [
+              0.24970632367102988,
+              1.079929354412682,
+              0.27251369074170034
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1500000,
+      "photo": {
+        "source": "玉琮/3商代/妇好墓弦纹玉琮/OIP-C.webp",
+        "sourceSha256": "cb4240dff08e2f7a68d918b20b67429e3cc5562a79a7835f4f2d7fd9317c3c81",
+        "webPath": "collection/new-jades/fuhao-cord.webp",
+        "sha256": "1d4d118aa43b3f1ffe8e46ffc72adc34c8ec8140da634c17e06b92e2b00150a9",
+        "bytes": 16862
+      }
+    },
+    {
+      "id": "fuhao-cicada",
+      "title": "殷墟妇好墓出土商代蝉纹玉琮",
+      "source": "玉琮/3商代/殷墟妇好墓出土商代蝉纹玉琮/7555b0fe8daa57744eeea308ff91ec82.glb",
+      "sourceSha256": "cdafe19cb6c4b468d24726333016192095d326b490b0ed357883a334ffe7613c",
+      "sourceBytes": 70548292,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/new-jades/fuhao-cicada-roaming.glb",
+          "sha256": "5a30e8bafde2b9bda5d9ec3f9842a0d25236fe31bb5c3ffba1f3cd718c445d09",
+          "bytes": 1231340,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.453227104812021,
+              -0.000005997141008490248,
+              -0.4778580531446013
+            ],
+            "max": [
+              0.44567507710968945,
+              0.41651410523975574,
+              0.45235707048216484
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/new-jades/fuhao-cicada-detail.glb",
+          "sha256": "ccece57509a17238b7fd715ba26fea755c23127caa0786bf027bda46d7c98c5f",
+          "bytes": 4165132,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.45322939373488447,
+              0.0000064670217092832605,
+              -0.47803105814119395
+            ],
+            "max": [
+              0.4457263908528807,
+              0.416575638569875,
+              0.452357070501992
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/new-jades/fuhao-cicada-roaming.glb",
+          "sourceSha256": "5a30e8bafde2b9bda5d9ec3f9842a0d25236fe31bb5c3ffba1f3cd718c445d09",
+          "webPath": "models/new-jades/fuhao-cicada-overview.glb",
+          "bytes": 352036,
+          "sha256": "8b0c89f1e42a1d4b8396dbd33508469110a14446975ef1faf8a9355223688cbe",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.4524468133263614,
+              0.00017048206870698412,
+              -0.4774324150050934
+            ],
+            "max": [
+              0.44523529497898195,
+              0.416280876281683,
+              0.4510801642612925
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1498890,
+      "photo": {
+        "source": "玉琮/3商代/殷墟妇好墓出土商代蝉纹玉琮/殷墟妇好墓出土商代蝉纹玉琮_3_博物馆里的故事_来自小红书网页版.jpg",
+        "sourceSha256": "40704e72c3b3be3f34063427815e06f48ffc899c0aae5035bd23fcb9a8cd582d",
+        "webPath": "collection/new-jades/fuhao-cicada.webp",
+        "sha256": "1e4e1965d515ede8230c7fe22af1e678c387818a7f67fed833b76fdc64b3d793",
+        "bytes": 226334
+      }
+    },
+    {
+      "id": "zhangjiapo-bird",
+      "title": "张家坡鸟纹玉琮",
+      "source": "玉琮/4西周/张家坡鸟纹玉琮/264deccb4b5274c4356a656314766b35.glb",
+      "sourceSha256": "3a99310c01652296555792f07926b95d6dbbba8ae4acd7e5efaa0617056b7811",
+      "sourceBytes": 78073472,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/new-jades/zhangjiapo-bird-roaming.glb",
+          "sha256": "1ef06ecc28331d54e25410277ed24be7b6923c0025a22fce85b3a19be44b8270",
+          "bytes": 1337416,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.3371774468789951,
+              0.00022995723898133758,
+              -0.36716430990696425
+            ],
+            "max": [
+              0.3346924398313419,
+              0.8452120686519353,
+              0.35695132919880423
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/new-jades/zhangjiapo-bird-detail.glb",
+          "sha256": "e85b99937ef1dd924bbe61e5605e4f40ffe92f269f5d5fa12306dfab7a90b111",
+          "bytes": 4911184,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.33731927987165206,
+              0.000011000295680851924,
+              -0.3672413758898119
+            ],
+            "max": [
+              0.3347442996127104,
+              0.8452691078169235,
+              0.3570334324475777
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/new-jades/zhangjiapo-bird-roaming.glb",
+          "sourceSha256": "1ef06ecc28331d54e25410277ed24be7b6923c0025a22fce85b3a19be44b8270",
+          "webPath": "models/new-jades/zhangjiapo-bird-overview.glb",
+          "bytes": 351004,
+          "sha256": "ecfa9615b0dbd24ff4362ff1a3a60c036acc5688a229110de96ceabc53887de9",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.3366533269075058,
+              0.0016734337369465613,
+              -0.3668301259209055
+            ],
+            "max": [
+              0.3343745308671602,
+              0.8451862920765117,
+              0.3563851581894829
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1499710,
+      "photo": {
+        "source": "玉琮/4西周/张家坡鸟纹玉琮/中国考古博｜西周居然还能看到玉琮_3_泡泡泡在博物馆_来自小红书网页版.jpg",
+        "sourceSha256": "b43991a75e983fd63298b2b0b0b2db7c260e2b00e6f5fbb64c31acbc2e87be59",
+        "webPath": "collection/new-jades/zhangjiapo-bird.webp",
+        "sha256": "b80a51a8d353e815d8b739cb30897d7ba243b24a1634b4c3678b0974e8382625",
+        "bytes": 79280
+      }
+    },
+    {
+      "id": "jin-white",
+      "title": "晋国墓地白玉素琮",
+      "source": "玉琮/4西周/晋国墓地白玉素琮/3a5bde7d3d06dbe2837e719a73bf1d4a.glb",
+      "sourceSha256": "fda6c526c3484c6e3864aa2ca6c7e53a99a510b81bc3116a14c8f946c50ed95d",
+      "sourceBytes": 69041632,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/new-jades/jin-white-roaming.glb",
+          "sha256": "41ba29f1298b48ffda11f59cacb7733f3332295dd43381e58b293c94019af15c",
+          "bytes": 1005120,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.41390358517010384,
+              -3.636336420864694e-8,
+              -0.3975999742985107
+            ],
+            "max": [
+              0.413580587600066,
+              0.957489108707849,
+              0.3959001215155486
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/new-jades/jin-white-detail.glb",
+          "sha256": "7663fc67dc7d63e247fd23a30516e90fc3c4e73230ed5a6ecebf8448bbf2666b",
+          "bytes": 3580096,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.4140482763129805,
+              -3.636361400882748e-8,
+              -0.3976275109257445
+            ],
+            "max": [
+              0.41374226606670367,
+              0.95757314595678,
+              0.3960006364637622
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/new-jades/jin-white-roaming.glb",
+          "sourceSha256": "41ba29f1298b48ffda11f59cacb7733f3332295dd43381e58b293c94019af15c",
+          "webPath": "models/new-jades/jin-white-overview.glb",
+          "bytes": 269516,
+          "sha256": "309fbf0e7173c80f0a601a496df6294b5f8895fe489631dd74b10c5b26d19d8e",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.4132627172980598,
+              0.00002921935813743337,
+              -0.3979166039199169
+            ],
+            "max": [
+              0.41369945771076927,
+              0.9574599428153452,
+              0.394901822525518
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1495900,
+      "photo": {
+        "source": "玉琮/4西周/晋国墓地白玉素琮/b44089528449b6967d4bf90c55903a91~tplv-be4g95zd3a-448x448.jpeg",
+        "sourceSha256": "00ff56c31fc7b13c33f31a84d10c7bd73484c680664b56343ddb7527f0fd4509",
+        "webPath": "collection/new-jades/jin-white.webp",
+        "sha256": "a309b55e95c0baa688905eaecf4a19676f679c23364df1f30c168d29b27cafa5",
+        "bytes": 10230
+      }
+    },
+    {
+      "id": "guozhong-plain",
+      "title": "虢国墓地虢仲墓素面玉琮",
+      "source": "玉琮/4西周/虢国墓地虢仲墓素面玉琮/345090e4bcecc4ba1b19d4ef9ec463df.glb",
+      "sourceSha256": "d08102dc3e10d74068d1388b80e137fde44bfa17bf7b5e1a802ab2066866e08d",
+      "sourceBytes": 63107728,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/new-jades/guozhong-plain-roaming.glb",
+          "sha256": "284b756a36b73f6e4c1d23942fba9467dadca83d77456908e59cd7cfd4bbc68a",
+          "bytes": 846812,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.23182820105761429,
+              0.00011902765730431586,
+              -0.23247529316671384
+            ],
+            "max": [
+              0.2317802044174089,
+              1.1029181961029166,
+              0.23150345828362962
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/new-jades/guozhong-plain-detail.glb",
+          "sha256": "ba0e12abf5a39572119a455a32f699d12f5e7c3a07a98ec9aa9d9b36e2f68a7d",
+          "bytes": 2959920,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.23183575757919805,
+              0.000015027580625770476,
+              -0.23251390267048172
+            ],
+            "max": [
+              0.23190676161228674,
+              1.103053142262827,
+              0.23159904543081677
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/new-jades/guozhong-plain-roaming.glb",
+          "sourceSha256": "284b756a36b73f6e4c1d23942fba9467dadca83d77456908e59cd7cfd4bbc68a",
+          "webPath": "models/new-jades/guozhong-plain-overview.glb",
+          "bytes": 238416,
+          "sha256": "14950b8a4ded7ffcdc670a9f2a975cf4f1f4fdc023f1a6c2d59ce8a109c4801f",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.23195721865708133,
+              0.0001190276046663108,
+              -0.2314348381520752
+            ],
+            "max": [
+              0.23079877608753246,
+              1.1021442516907554,
+              0.23174176857998346
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1496058,
+      "photo": {
+        "source": "玉琮/4西周/虢国墓地虢仲墓素面玉琮/虢国墓地出土的齐家文化玉琮.jpg",
+        "sourceSha256": "ca749aff8d6cc2f3e49561f70c213fd8ad6f8554c4733ddaf3872322645b9be6",
+        "webPath": "collection/new-jades/guozhong-plain.webp",
+        "sha256": "f482ffdd3fd0be5ae893ad262c6c95a54e7bcdadf431225d05b7262d618270af",
+        "bytes": 159888
+      }
+    },
+    {
+      "id": "zenghouyi",
+      "title": "曾侯乙墓玉琮",
+      "source": "三维建模/a98050dafadb0fa946b136950bb1c82e.glb",
+      "sourceSha256": "77e97dcdaa44008ef9912bd4599a0fd416e1d2c58a34c8e20a1a9d3587dc1d4b",
+      "sourceBytes": 74051280,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/new-jades/zenghouyi-roaming.glb",
+          "bytes": 1162524,
+          "sha256": "756e0c91e168d5c8c8a245c33e6a7fa9b1a7d3ee369041fa3c8304409b19fcac",
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.40824387573672344,
+              0.00019124609138221338,
+              -0.417423054344617
+            ],
+            "max": [
+              0.4063128938622575,
+              0.6680228632035211,
+              0.4105001084989059
+            ]
+          },
+          "textures": [
+            {
+              "name": "texture_pbr_20250901_normal",
+              "mimeType": "image/webp",
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1024,
+              "height": 1024,
+              "bytes": 287542
+            },
+            {
+              "name": "texture_pbr_20250901",
+              "mimeType": "image/webp",
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1024,
+              "height": 1024,
+              "bytes": 58434
+            },
+            {
+              "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+              "mimeType": "image/webp",
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1024,
+              "height": 1024,
+              "bytes": 390266
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/new-jades/zenghouyi-detail.glb",
+          "bytes": 4179920,
+          "sha256": "52cbedf3da6640de5bd6772bed0bfda3456d3d2c41966bb77772800783d0d1aa",
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.40824182916930696,
+              0.0001357898695398263,
+              -0.4174230543451661
+            ],
+            "max": [
+              0.40632282782844087,
+              0.6682012816511101,
+              0.4105081261564017
+            ]
+          },
+          "textures": [
+            {
+              "name": "texture_pbr_20250901_normal",
+              "mimeType": "image/webp",
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 2048,
+              "height": 2048,
+              "bytes": 1191044
+            },
+            {
+              "name": "texture_pbr_20250901",
+              "mimeType": "image/webp",
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 2048,
+              "height": 2048,
+              "bytes": 211402
+            },
+            {
+              "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+              "mimeType": "image/webp",
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 2048,
+              "height": 2048,
+              "bytes": 1423716
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/new-jades/zenghouyi-roaming.glb",
+          "sourceSha256": "756e0c91e168d5c8c8a245c33e6a7fa9b1a7d3ee369041fa3c8304409b19fcac",
+          "webPath": "models/new-jades/zenghouyi-overview.glb",
+          "bytes": 317448,
+          "sha256": "cf7a2b70e57a8db8aadc6154dd1eac96f02dc115af8d1b5b940befb40698f3f1",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.40740323040850096,
+              0.0003020213160259688,
+              -0.4160592022774638
+            ],
+            "max": [
+              0.40607840611624924,
+              0.6665987465716819,
+              0.4105001079002201
+            ]
+          },
+          "textures": [
+            {
+              "name": "texture_pbr_20250901_normal",
+              "mimeType": "image/webp",
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 512,
+              "height": 512,
+              "bytes": 73160
+            },
+            {
+              "name": "texture_pbr_20250901",
+              "mimeType": "image/webp",
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 512,
+              "height": 512,
+              "bytes": 24868
+            },
+            {
+              "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+              "mimeType": "image/webp",
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 512,
+              "height": 512,
+              "bytes": 108784
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1499968,
+      "photo": {
+        "id": "zenghouyi",
+        "source": "三维建模/f972377d-2c8f-4f7d-94d4-e32057b7d197.png",
+        "sourceSha256": "c8d4b0c1498ab39edf96933796ec58d6404f8b37a89eeb5f341ebc1724800d88",
+        "webPath": "collection/supplied/zenghouyi.webp",
+        "sha256": "9849b56fc267f1e69e1eedc654e031f18bd8a4e802d6d15d77dadbab89940c02",
+        "bytes": 53782,
+        "evidence": "灰绿素面、宽孔、短射及口沿缺口，与 a98050 新模型对照。"
+      },
+      "previousSource": {
+        "source": "玉琮/5春秋战国——汉代/曾侯乙墓玉琮/b8f08b299d8d974b2241cb0c6a110758.glb",
+        "sourceSha256": "eeb512e7e652c7d0778dbb9e1e651f7ea57dbec01049920eb81f3d119556242d"
+      },
+      "replacementDate": "2026-10-18",
+      "previousPhoto": {
+        "source": "玉琮/5春秋战国——汉代/曾侯乙墓玉琮/9a5a2e15572075525a8bf36f3fa8e77c.png",
+        "sourceSha256": "0b96bb97260b6b57d2d2c538b2751c9ca51fe95e1187de973c80ea864daf8a68",
+        "webPath": "collection/new-jades/zenghouyi.webp",
+        "sha256": "cfc963ab83979d6d9dea5d8522227f5a4e3b4400e35a09cd8024bc4bc6890681",
+        "bytes": 21826
+      }
+    },
+    {
+      "id": "song-archaic",
+      "title": "宋代仿古兽面玉琮",
+      "source": "玉琮/6宋、明、清/宋代仿古兽面玉琮/eb8386c55dd406d8e874bcffd50e4f56.glb",
+      "sourceSha256": "b84e6025dad9264731fe5030d93d6b5924a290954002dce6084fab8c6e34e98c",
+      "sourceBytes": 77887436,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/new-jades/song-archaic-roaming.glb",
+          "sha256": "8dab26e018a6e603244b280b2397f9438831df52fccbbbff5fd408d3d76d0208",
+          "bytes": 1421620,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.18514184715285176,
+              0.00013000526484918673,
+              -0.1959776492281966
+            ],
+            "max": [
+              0.18540084423556202,
+              1.1553701484746983,
+              0.19709380845778984
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1024,
+              "height": 1024
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/new-jades/song-archaic-detail.glb",
+          "sha256": "8927e2c1f16c33a2c30d08b0cd489fa7868523026d3a4c3f0cac44f8f0d6ca44",
+          "bytes": 5255008,
+          "triangles": 149996,
+          "bounds": {
+            "min": [
+              -0.18529153787840905,
+              4.736833592033918e-9,
+              -0.19609556101475775
+            ],
+            "max": [
+              0.18540153825034203,
+              1.1553792090455526,
+              0.19709373303718727
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 2048,
+              "height": 2048
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/new-jades/song-archaic-roaming.glb",
+          "sourceSha256": "8dab26e018a6e603244b280b2397f9438831df52fccbbbff5fd408d3d76d0208",
+          "webPath": "models/new-jades/song-archaic-overview.glb",
+          "bytes": 393884,
+          "sha256": "4a0e9b85d94a7ed2adb99166d1959950a7002c033594ceba97b73e56a54934d3",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.18478885231726058,
+              0.0009055096041326038,
+              -0.19563851716916644
+            ],
+            "max": [
+              0.18543560253474045,
+              1.1553701484818648,
+              0.19657840418885897
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1500000,
+      "photo": {
+        "source": "玉琮/6宋、明、清/宋代仿古兽面玉琮/v2-e471aabcabf286bfa7ddc171f32763ce_1440w.webp",
+        "sourceSha256": "f375c81da8a75ab7efab29ac868e3593ddf21f529dbb8d281bacaf1b7b27775f",
+        "webPath": "collection/new-jades/song-archaic.webp",
+        "sha256": "55d7d5a79e3613b15b9552b658d612ca02c67dafc305cd6a4a18338d2b316a55",
+        "bytes": 43332
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "asset": "irradiance.png",
+  "kind": "computed-lighting-atlas",
+  "generator": "Blender Cycles",
+  "prompt": null,
+  "description": "Actual static multi-bounce diffuse bake; no image-generation prompt or photograph backdrop.",
+  "sourceSceneSha256": "11628449300917b4d609f98640e1d8ded9b9760ccabe250e69b58a382204ae5c",
+  "encoding": {
+    "file": "irradiance.png",
+    "encoding": "RGBM",
+    "range": 256.0,
+    "colorSpace": "NoColorSpace",
+    "flipY": false,
+    "decode": "texel.rgb * texel.a * 256.0",
+    "uvAttribute": "uv1",
+    "albedoIncluded": false,
+    "viewTransformApplied": false
+  },
+  "provenance": {
+    "lighting": "Computed from the supplied static 3D geometry, area/point/spot lights and emissive surfaces using Cycles path tracing.",
+    "photographicMaterials": "Source texture files are tracked by hashes; photographic PBR materials are not scans of the original museum.",
+    "geometry": "Reference reconstruction, not a measured 1:1 survey.",
+    "notABackdrop": true
+  },
+  "region": "atrium",
+  "sourceSignatures": {
+    "atrium-floor:true": "tri2:1368:64293c1d",
+    "atrium-border:true": "tri2:584:210ef485",
+    "atrium-stone:true": "tri2:6992:b2c4451c",
+    "atrium-displayBase:true": "tri2:3300:afb3acf4",
+    "atrium-wall:true": "tri2:3720:6fade92f",
+    "atrium-ceiling:true": "tri2:2240:8b6aa14a",
+    "atrium-stair:true": "tri2:784:222b7079",
+    "atrium-column:true": "tri2:1024:dfc6148f",
+    "art-artBacking:true": "tri2:900:30f1e06f",
+    "art-artLandscape:true": "tri2:2:ba461ca7",
+    "art-artRiver:true": "tri2:2:f589c9c1",
+    "art-artJade:true": "tri2:4688:c807cdd",
+    "art-artGraphite:true": "tri2:600:aa59a2eb",
+    "art-artRitual:true": "tri2:20:9f47b3a3"
+  },
+  "sourceOccluderSignatures": {
+    "atrium-bronze:false": "tri2:6720:107487e7",
+    "atrium-border:false": "tri2:3456:3eb33dd5",
+    "atrium-bronze:true": "tri2:20724:2b678292",
+    "atrium-lamp:false": "tri2:276:790a9653",
+    "atrium-dark:true": "tri2:9704:69205dfb",
+    "atrium-joint:false": "tri2:5112:82a2621d",
+    "atrium-joint:true": "tri2:288:ae933687",
+    "atrium-coveEmitter:false": "tri2:4360:83469a43",
+    "atrium-footEmitter:false": "tri2:912:c3ee9703",
+    "atrium-footEmitter:true": "tri2:216:751df845",
+    "atrium-lamp:true": "tri2:2520:1ae8423f",
+    "atrium-dark:false": "tri2:2656:9cf98d40",
+    "atrium-skylightFrame:true": "tri2:2512:fee2b068",
+    "art-artCopper:false": "tri2:68940:f03517e"
+  },
+  "sourceAppearanceSignature": "62c2aab7",
+  "dynamicPolicy": "Moving doors excluded from targets and occluders; no closed-door baked shadows.",
+  "sunDirectRuntime": true
+}

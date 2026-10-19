@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-18",
+  "photos": [
+    {
+      "id": "liangzhu",
+      "source": "三维建模/b507f00e-9aa9-468b-9818-6036f1622dfe.jpeg",
+      "sourceSha256": "bc04832ad3c969e2102585bf686d77c8e3da1d93e39ad930f33ad451521b407b",
+      "webPath": "collection/supplied/liangzhu.webp",
+      "sha256": "7a65f11995ebf902eabd5234d1b2e850d208dc57d13e4599728b8847bcbea30d",
+      "bytes": 26266,
+      "evidence": "低矮宽体、两节兽面纹及中央神人纹，与原良渚模型对照。"
+    },
+    {
+      "id": "shangzhou",
+      "source": "三维建模/0d32656b-7bcc-48be-acf8-57b84a1be06c.jpeg",
+      "sourceSha256": "9709a3a481077cbb3e4f0b679dc5905d79fbf7f25d868c4f0fc6eca9b34ef73c",
+      "webPath": "collection/supplied/shangzhou.webp",
+      "sha256": "e904c7f084e8678bdfafdb76dd330a9445ead7bb1905b3dbad39a5438abeaff3",
+      "bytes": 23568,
+      "evidence": "宽圆孔、低矮器身、角部蝉纹，与原商代模型对照。"
+    },
+    {
+      "id": "zhou",
+      "source": "三维建模/89ad685c-7823-409a-9e4b-87b70066fbf6.png",
+      "sourceSha256": "6e4231205b05fe5ff58df5498c35d524b1a81e1a9dbd48e18141d736ab335e4c",
+      "webPath": "collection/supplied/zhou.webp",
+      "sha256": "05d86bbaf878e549a9689c97dd5f1c3a2de8f8fff32f94c124d8609fb84194c1",
+      "bytes": 207022,
+      "evidence": "长素面、上下长射、纵向沁痕，与原西周模型对照。"
+    },
+    {
+      "id": "songmingqing",
+      "source": "三维建模/3a64a3e7-639d-4e3b-917c-09f662fb3977.jpeg",
+      "sourceSha256": "dcf3cc67b3a2546f8b3443b8611cc72508e6dc1c50e19cf8adf2fc0bd4de1f7a",
+      "webPath": "collection/supplied/songmingqing.webp",
+      "sha256": "6ca1920096499623cfe19f1f6eb66f38f5cd7c61c922d0cf233856708b01561e",
+      "bytes": 20874,
+      "evidence": "褐色两节纹饰、上部金属盖，与原宋明清模型对照。"
+    },
+    {
+      "id": "zenghouyi",
+      "source": "三维建模/f972377d-2c8f-4f7d-94d4-e32057b7d197.png",
+      "sourceSha256": "c8d4b0c1498ab39edf96933796ec58d6404f8b37a89eeb5f341ebc1724800d88",
+      "webPath": "collection/supplied/zenghouyi.webp",
+      "sha256": "9849b56fc267f1e69e1eedc654e031f18bd8a4e802d6d15d77dadbab89940c02",
+      "bytes": 53782,
+      "evidence": "灰绿素面、宽孔、短射及口沿缺口，与 a98050 新模型对照。"
+    }
+  ],
+  "replacements": [
+    {
+      "id": "zhanguohan",
+      "source": "4f64a3cc811f49ff3988fc21fb5431a3.glb",
+      "sourceSha256": "6056c46464ab75d9eee4c8b433ba70062b324b0c9c3d0c6c2c91b2f301dd6cdb",
+      "photo": "collection/supplied/zhanguohan.webp"
+    },
+    {
+      "id": "zenghouyi",
+      "source": "a98050dafadb0fa946b136950bb1c82e.glb",
+      "sourceSha256": "77e97dcdaa44008ef9912bd4599a0fd416e1d2c58a34c8e20a1a9d3587dc1d4b",
+      "photo": "collection/supplied/zenghouyi.webp"
+    }
+  ],
+  "photoCorrections": {
+    "reason": "按展览方更正，交换战汉两件玉琮的实物照片；保留原文件与导入记录。",
+    "assignments": {
+      "zhanguohan": "collection/supplied/zenghouyi.webp",
+      "zenghouyi": "collection/supplied/zhanguohan.webp"
+    }
+  },
+  "catalogCorrections": {
+    "removedDuplicate": "qijia-plain",
+    "retained": "qijia",
+    "reason": "两条目为同一源模型，展览保留主展柜一件。"
+  }
+}

@@ -1,0 +1,1222 @@
+{
+  "schemaVersion": 1,
+  "source": "User supplied 玉.zip; source names are labels, not authenticated museum identifiers",
+  "process": "Preserved source PBR materials; welded and simplified; WebP at recorded per-derivative sizes; Meshopt; decoded Khronos validation",
+  "models": [
+    {
+      "id": "jade-jue",
+      "title": "新石器玉玦",
+      "source": "玉/新石器玉玦/8e722d4a34bc77aae81eff3f5ea80032.glb",
+      "sourceSha256": "da1b322fb603e585885dcf616fe234722ae5f0874ea805b2df22b68d90358f3e",
+      "sourceBytes": 70270236,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/final-jades/jade-jue-roaming.glb",
+          "sha256": "f1de6a054307b2d89cf3585bd2be2bd3085c4fc5a9f27ec7ad244eedb084ee27",
+          "bytes": 780028,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.6249274976746627,
+              0.0000029985929458353766,
+              -0.21261815240308898
+            ],
+            "max": [
+              0.5619135268227645,
+              1.1971102176470656,
+              0.21117531767342593
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 768,
+              "height": 768
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/final-jades/jade-jue-detail.glb",
+          "sha256": "17250db924a39d93a48a95285a95dcbf720c06f7ca1116c0bc3a35f39e82b27e",
+          "bytes": 2686984,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.6249523038057622,
+              9.980765147687976e-7,
+              -0.21262976355606916
+            ],
+            "max": [
+              0.5622162694124516,
+              1.1972911762360277,
+              0.21119193610817796
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/final-jades/jade-jue-roaming.glb",
+          "sourceSha256": "f1de6a054307b2d89cf3585bd2be2bd3085c4fc5a9f27ec7ad244eedb084ee27",
+          "webPath": "models/final-jades/jade-jue-overview.glb",
+          "bytes": 270688,
+          "sha256": "dbd490956e1aa7ba8a3690ce9c2bc71d4be4e5ac103b9d0c012465fe3d91f02d",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.6238240147623377,
+              0.0006970403397555947,
+              -0.2125567171285976
+            ],
+            "max": [
+              0.5620520172282668,
+              1.197110217647115,
+              0.21111388335736425
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1500000,
+      "photo": {
+        "source": "玉/新石器玉玦/d8ff17bff57c48568032d1b14b16bdfc~tplv-be4g95zd3a-448x448.jpg",
+        "sourceSha256": "34244c0e2acce1df5aa879aa1fd0fbe35c72310893d6a1df4b489d9450a76084",
+        "webPath": "collection/final-jades/jade-jue.webp",
+        "sha256": "e50cbb15f32719b2a14fb407f32b35efcbf54728eb44736a7cf0d948cbb82b19",
+        "bytes": 15190,
+        "association": "Supplied folder reference"
+      }
+    },
+    {
+      "id": "sanxingdui-zhang",
+      "title": "三星堆玉璋",
+      "source": "玉/三星堆玉璋/eb9e4c0379c3cffa2e223a262a590862.glb",
+      "sourceSha256": "6dc8f015de8a36feb7c370b90e36626020594821e30a4c4ae9f61af1544a243c",
+      "sourceBytes": 77013304,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/final-jades/sanxingdui-zhang-roaming.glb",
+          "sha256": "48993bba50bf598198e1b8b26d67b672e35199fc230105f989fe109ae1c9f0a3",
+          "bytes": 1311168,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.12384644795630848,
+              0.000005991292287043856,
+              -0.6015420756153589
+            ],
+            "max": [
+              0.12521744419310962,
+              0.019747993105228588,
+              0.5703530483643772
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 768,
+              "height": 768
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/final-jades/sanxingdui-zhang-detail.glb",
+          "sha256": "6079b58a782460ff61f4c5f404f6042a1c85e84cf7734678ad33f72d9e6c101e",
+          "bytes": 4276944,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.1238481863115757,
+              0.0000051163197458108794,
+              -0.6018050511702361
+            ],
+            "max": [
+              0.12534718352303198,
+              0.019751868694764516,
+              0.5703720622845887
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/final-jades/sanxingdui-zhang-roaming.glb",
+          "sourceSha256": "48993bba50bf598198e1b8b26d67b672e35199fc230105f989fe109ae1c9f0a3",
+          "webPath": "models/final-jades/sanxingdui-zhang-overview.glb",
+          "bytes": 535760,
+          "sha256": "9aa978f229e76424a46e0c4410c9be8655fe6b74d360d42506b3c877ef79b77c",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.12376283631002886,
+              0.00004836011718605503,
+              -0.5999689661188629
+            ],
+            "max": [
+              0.12513383254683003,
+              0.019705624703348003,
+              0.5703530483651482
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1500000,
+      "photo": {
+        "source": "玉/三星堆玉璋/d9531dc32c1c5c89c405208e33a8ca73~tplv-be4g95zd3a-448x448.jpg",
+        "sourceSha256": "37af4727ee453d763e5c33b157fb8d05c6b28d4b3ecccb5e301b77cf06feb0e3",
+        "webPath": "collection/final-jades/sanxingdui-zhang.webp",
+        "sha256": "b5138922fccaa7fee2b802b0282aafb979569110b8f976159261d0487fced9ce",
+        "bytes": 5858,
+        "association": "Supplied folder reference"
+      }
+    },
+    {
+      "id": "turquoise-ge",
+      "title": "嵌绿松石玉戈",
+      "source": "玉/嵌绿松石玉戈/c34bc130e92d71235c61a35c7f78afdf.glb",
+      "sourceSha256": "2b93cc9d1d767d4540b5cd14cc84da0be3d988455e5454825f6c135de50709ab",
+      "sourceBytes": 76669176,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/final-jades/turquoise-ge-roaming.glb",
+          "sha256": "8a3afe055ded092c7f07e81edaca3d1f07f9d5278fb3aa51e683abeb12c1bd4c",
+          "bytes": 1237832,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.7749159932136536,
+              0.00007603233310740642,
+              -0.03485596470888245
+            ],
+            "max": [
+              0.4167270064353943,
+              0.31028801792812294,
+              0.03715102132070727
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 768,
+              "height": 768
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/final-jades/turquoise-ge-detail.glb",
+          "sha256": "be475fefeb460cd20a63f03b21b4b6f65ce6d286e7aecaf09a791af3a173d343",
+          "bytes": 3967936,
+          "triangles": 149998,
+          "bounds": {
+            "min": [
+              -0.774931013584137,
+              0.00005341410606005126,
+              -0.03483377905640726
+            ],
+            "max": [
+              0.41674500703811646,
+              0.3102376276364368,
+              0.03713883424398251
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/final-jades/turquoise-ge-roaming.glb",
+          "sourceSha256": "8a3afe055ded092c7f07e81edaca3d1f07f9d5278fb3aa51e683abeb12c1bd4c",
+          "webPath": "models/final-jades/turquoise-ge-overview.glb",
+          "bytes": 489384,
+          "sha256": "6821d8471894831db72ec7f08e300920d309116bf82188e16c12aa75a80dffc3",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.7743705689313841,
+              -0.0000948409869393485,
+              -0.034135961700137725
+            ],
+            "max": [
+              0.41654519834130455,
+              0.3095134881256187,
+              0.03737642018255795
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1500000,
+      "photo": {
+        "source": "玉/嵌绿松石玉戈/372d983e12b05f99a220dac3b092cc33~tplv-a9rns2rl98-pc_smart_face_crop-v1_512_384.jpg",
+        "sourceSha256": "09bc0b6e66c18f5fbc92cce4cb147368ffc532f28426935ba0492a66741b794c",
+        "webPath": "collection/final-jades/turquoise-ge.webp",
+        "sha256": "ece215cc1e1e65f0454875f53ac458295139f760c60ab9b8408ba8d8031c7fad",
+        "bytes": 10480,
+        "association": "Supplied folder reference"
+      }
+    },
+    {
+      "id": "grain-bi",
+      "title": "战国谷纹玉璧",
+      "source": "玉/战国谷纹玉璧/61c35445d8fa2d107eaf947d2f9f9e46.glb",
+      "sourceSha256": "fe1771e2a13b6401f8e812ed13422a3afdbd3285c62b020a8bb2af2b71c871b1",
+      "sourceBytes": 86163788,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/final-jades/grain-bi-roaming.glb",
+          "sha256": "d15877297d3ae36e24b574cfa75b0f3009b7b1118d6f155587a974d721fe7172",
+          "bytes": 1179124,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.5972327076811688,
+              0.00022800032354641786,
+              -0.009816019691421578
+            ],
+            "max": [
+              0.5958026730437176,
+              1.1939921788828798,
+              0.00993007575125198
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 768,
+              "height": 768
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/final-jades/grain-bi-detail.glb",
+          "sha256": "6327892b8663dc4060c292e0bda1d576f74ef685b5b56040dcd004469a1658d5",
+          "bytes": 4565944,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.5972619253405309,
+              0.00005199976825531749,
+              -0.009813928694638884
+            ],
+            "max": [
+              0.5958469110735631,
+              1.1939261371401209,
+              0.009933985884162671
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/final-jades/grain-bi-roaming.glb",
+          "sourceSha256": "d15877297d3ae36e24b574cfa75b0f3009b7b1118d6f155587a974d721fe7172",
+          "webPath": "models/final-jades/grain-bi-overview.glb",
+          "bytes": 452604,
+          "sha256": "aab8d0c1fab843e0e20e43f8d7239428455120e1fbbcf06fcb11d928cc2c3085",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.5966591354319102,
+              0.0010657870662090785,
+              -0.009821662232230995
+            ],
+            "max": [
+              0.5955205048376192,
+              1.193992178884185,
+              0.009899400486442413
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1500008,
+      "photo": {
+        "source": "玉/战国谷纹玉璧/f383afe471ac7d9f5e31a28569a78996~tplv-be4g95zd3a-448x448.jpeg",
+        "sourceSha256": "9efab38767d2de489aec39fe8feb955b2e5c34f64e7409a15b78529e8c0ef61c",
+        "webPath": "collection/final-jades/grain-bi.webp",
+        "sha256": "0bb3658fa6f4fdcfe62b16b30a9d40e9e454bd67a3c8e0e2b032309d05b925d5",
+        "bytes": 25562,
+        "association": "Supplied folder reference"
+      }
+    },
+    {
+      "id": "double-dragon-heng",
+      "title": "汉代双龙首玉珩",
+      "source": "玉/汉代双龙首玉珩/f6d20522ee91e8aa2e2ed2ffe67ebe25.glb",
+      "sourceSha256": "4cdcc3655b0b0a9363adc2b47e9259a32dd96e7d6930025d1e3c93544dbc6e4f",
+      "sourceBytes": 89936760,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/final-jades/double-dragon-heng-roaming.glb",
+          "sha256": "706c83d75dc6c538230e8f59731b9409c473080e39b19680a8d3550e07fa5ad7",
+          "bytes": 1866600,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.5929780006408691,
+              0.00002046465511549092,
+              -0.1861128333236398
+            ],
+            "max": [
+              0.6064800024032593,
+              0.0428125034750461,
+              0.21940483862950205
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 768,
+              "height": 768
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/final-jades/double-dragon-heng-detail.glb",
+          "sha256": "9d8d5a6df716bbb8ccd82689a7ef9719a717be93ed258e917bcf00488734d8a8",
+          "bytes": 5788764,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.5929890275001526,
+              0.000030057062586807265,
+              -0.18610819296991457
+            ],
+            "max": [
+              0.6064800024032593,
+              0.0429689134881587,
+              0.21941320688321067
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/final-jades/double-dragon-heng-roaming.glb",
+          "sourceSha256": "706c83d75dc6c538230e8f59731b9409c473080e39b19680a8d3550e07fa5ad7",
+          "webPath": "models/final-jades/double-dragon-heng-overview.glb",
+          "bytes": 784692,
+          "sha256": "e2cac8b114cadf7bf24dacc2995c7e63fd9e0a587ab6da885ae146589d369262",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.5914414187785849,
+              -0.0002028515382243995,
+              -0.18574075607412402
+            ],
+            "max": [
+              0.6053458586477638,
+              0.041828504702635785,
+              0.21888641993867824
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1499994,
+      "photo": {
+        "source": "玉/汉代双龙首玉珩/52bd13ffac137067e0bc5492f2372aa9~tplv-be4g95zd3a-448x448.jpg",
+        "sourceSha256": "2c29d9e41e69152c69505069945bd4bc4959767930d290d12748ac6b5891dfe3",
+        "webPath": "collection/final-jades/double-dragon-heng.webp",
+        "sha256": "8ecdeaf7af2a170dad3a0865a169194a81c6ee9b13e999a21470036979d5b60c",
+        "bytes": 11026,
+        "association": "Supplied folder reference"
+      }
+    },
+    {
+      "id": "double-hole-yue",
+      "title": "良渚双孔玉钺",
+      "source": "玉/良渚双孔玉钺/2d23d59ad3079994cdd31d91b6d03f64.glb",
+      "sourceSha256": "64d35895f690cc8923cd4bf190a8e3a728583b96d4327fd8a4a7d7819a6ebdc0",
+      "sourceBytes": 72676392,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/final-jades/double-hole-yue-roaming.glb",
+          "sha256": "68f444aeee14a0934e88d9b7d305a3ad2a1f3f2ee2fd2c8a485ece7f86921fd3",
+          "bytes": 903136,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.3841715681161845,
+              0.0002139998616726979,
+              -0.05082340131978325
+            ],
+            "max": [
+              0.38090055461787825,
+              1.0019771028190267,
+              0.048903498448251634
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 768,
+              "height": 768
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/final-jades/double-hole-yue-detail.glb",
+          "sha256": "dc79504aece5edafd08ef27c2ba0a35c54769166e5b8921aeeb7ad70c46fdbdc",
+          "bytes": 3537892,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.38431740810423126,
+              9.762723962580822e-11,
+              -0.05082382095318308
+            ],
+            "max": [
+              0.3809654216959976,
+              1.0021591348101206,
+              0.04891192000564031
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/final-jades/double-hole-yue-roaming.glb",
+          "sourceSha256": "68f444aeee14a0934e88d9b7d305a3ad2a1f3f2ee2fd2c8a485ece7f86921fd3",
+          "webPath": "models/final-jades/double-hole-yue-overview.glb",
+          "bytes": 334452,
+          "sha256": "15c0841ff5b3fa934577c0c31d62b2eb9ed13eee360886cb9b346604dc78e41a",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.3828431728166552,
+              0.0002139998607630922,
+              -0.050780693363706136
+            ],
+            "max": [
+              0.3801834842775007,
+              1.0011823792537615,
+              0.04889135865199512
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1499996,
+      "photo": {
+        "source": "玉/良渚双孔玉钺/bda5179848c446eeb4f74d447cbbb98d~tplv-be4g95zd3a-448x448.jpeg",
+        "sourceSha256": "adfc0d6fb847e1cb9124bd23c6588fdbfe2e08d8f7ed7fc5b5b7637577c63fde",
+        "webPath": "collection/final-jades/double-hole-yue.webp",
+        "sha256": "71f5e5239a74602c25dcf2aca74e2e68a48ef9b0a00ab2e6a0bd9d1cda06b3ca",
+        "bytes": 21594,
+        "association": "Supplied folder reference"
+      }
+    },
+    {
+      "id": "chi-plaque",
+      "title": "螭纹玉牌",
+      "source": "玉/螭纹玉牌/4ad4c9261ca9dadece7a5044c5658039.glb",
+      "sourceSha256": "01d82bbbebe87e82528ff1aadabffee6cfd460c86a714cf2b5ec59a143f5fffa",
+      "sourceBytes": 79983644,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/final-jades/chi-plaque-roaming.glb",
+          "sha256": "e3a6a1c9e5b6324bb5d9231c54094470b7bfb77f82551ce0c533352b2fa38e65",
+          "bytes": 1179112,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.3460995126404699,
+              0.0002540153810754453,
+              -0.16400257383010336
+            ],
+            "max": [
+              0.39013453013085686,
+              0.9444121367217219,
+              0.0809477528913379
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 768,
+              "height": 768
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/final-jades/chi-plaque-detail.glb",
+          "sha256": "863bbabe38d966ac59139924d929d6815994cdcabd15bac2dfe557db3ecb353c",
+          "bytes": 4285404,
+          "triangles": 149998,
+          "bounds": {
+            "min": [
+              -0.3462596736302414,
+              0.000002012517353877641,
+              -0.16404246018635954
+            ],
+            "max": [
+              0.39014067271852876,
+              0.9447061661489113,
+              0.08171264194651984
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/final-jades/chi-plaque-roaming.glb",
+          "sourceSha256": "e3a6a1c9e5b6324bb5d9231c54094470b7bfb77f82551ce0c533352b2fa38e65",
+          "webPath": "models/final-jades/chi-plaque-overview.glb",
+          "bytes": 463604,
+          "sha256": "0447a215777a422dec3d1b2ac0c0c18e4147eb99d449c790f4ff73d7e56c9bd0",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.34586314673988927,
+              0.0008014079668233198,
+              -0.16404630442679158
+            ],
+            "max": [
+              0.3900710249361902,
+              0.9444121367291138,
+              0.08067456343134781
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1498876,
+      "photo": {
+        "source": "玉/螭纹玉牌/285b9c262ed60aebca0f01f2bc52da4d~tplv-a9rns2rl98-pc_smart_face_crop-v1_512_384.jpg",
+        "sourceSha256": "ad78ae1e050b30a4318c6b0a80a7e175783ae7b8524c7f74033776b7513375f8",
+        "webPath": "collection/final-jades/chi-plaque.webp",
+        "sha256": "52f7983e0da1916eaada6bd37c79108b76fb3f2ba2f6c17cbba62894c977c697",
+        "bytes": 10328,
+        "association": "Supplied folder reference"
+      }
+    },
+    {
+      "id": "phoenix-huang",
+      "title": "西周凤纹玉璜",
+      "source": "玉/西周凤纹玉璜/931f3e83ff35f7fb6f68ea40eff76290.glb",
+      "sourceSha256": "7ded13da754415144811701873d8cd9e61ca4cd958dff5c1c44d6f73c24c02e3",
+      "sourceBytes": 78022684,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/final-jades/phoenix-huang-roaming.glb",
+          "sha256": "52e82d732e6923942167584507f263ed9a364947519fe162df1196cfb34cc701",
+          "bytes": 1327544,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.5822259783744812,
+              0.00018072013929040787,
+              -0.21889870925251467
+            ],
+            "max": [
+              0.60801100730896,
+              0.4170743452456067,
+              0.20885576748898718
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 768,
+              "height": 768
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/final-jades/phoenix-huang-detail.glb",
+          "sha256": "319a59ea39c2014d5be83810567b303027dda8932b8f39fbd78da1632e56cd29",
+          "bytes": 4413164,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.5822259783744812,
+              0.00012656805763169854,
+              -0.21899768378250728
+            ],
+            "max": [
+              0.60801100730896,
+              0.4171654904379968,
+              0.20897473906528724
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/final-jades/phoenix-huang-roaming.glb",
+          "sourceSha256": "52e82d732e6923942167584507f263ed9a364947519fe162df1196cfb34cc701",
+          "webPath": "models/final-jades/phoenix-huang-overview.glb",
+          "bytes": 522564,
+          "sha256": "f837c9da1b79e632cfdf7092a14f35e953a722fbae80d3422e6e2ffde4595a01",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.5821170130810975,
+              0.00016393450330745574,
+              -0.2184244167410406
+            ],
+            "max": [
+              0.6077930767221926,
+              0.41669159154817237,
+              0.20863572733623345
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1500000,
+      "photo": {
+        "source": "玉/西周凤纹玉璜/c980cf86064c410287f74760fb1aaa8d~tplv-be4g95zd3a-448x448.jpeg",
+        "sourceSha256": "9ff9f7abb3e98e2ca5a986da6ab79b931273209f711c74806670e748aa3f053e",
+        "webPath": "collection/final-jades/phoenix-huang.webp",
+        "sha256": "1207d0d654f5ba7bb44708aa4ec32fc552cb4e31f28517ae293d40f0595d3d15",
+        "bytes": 8074,
+        "association": "Supplied folder reference"
+      }
+    },
+    {
+      "id": "dragon-phoenix-zhi",
+      "title": "龙凤纹玉璏",
+      "source": "玉/龙凤纹玉璏/d8ba4e8eb42a8412f9a76719623df4f3.glb",
+      "sourceSha256": "b555d0ab81712aaa0e18f9a288d708fdc19414ec75521784b97030c4df785326",
+      "sourceBytes": 79872556,
+      "derivatives": [
+        {
+          "quality": "roaming",
+          "webPath": "models/final-jades/dragon-phoenix-zhi-roaming.glb",
+          "sha256": "a25becfa37b94130c9596f3dc3f03bd6db017360a63a9302cb53df714c6d34cf",
+          "bytes": 1213204,
+          "triangles": 35000,
+          "bounds": {
+            "min": [
+              -0.5192890167236328,
+              0.0001336263886779765,
+              -0.13669766505496017
+            ],
+            "max": [
+              0.5943329930305481,
+              0.523383454684809,
+              0.133355791984323
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 768,
+              "height": 768
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 768,
+              "height": 768
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "detail",
+          "webPath": "models/final-jades/dragon-phoenix-zhi-detail.glb",
+          "sha256": "9eee17844a6e6417546e8a9b3b1b1a51959ddf1347a0bfcaba7047a678c0a110",
+          "bytes": 4319700,
+          "triangles": 150000,
+          "bounds": {
+            "min": [
+              -0.5193009972572327,
+              0.0000036874876626069586,
+              -0.13678695199749294
+            ],
+            "max": [
+              0.5943400263786316,
+              0.5235003602710434,
+              0.13337307601441684
+            ]
+          },
+          "textures": [
+            {
+              "slots": [
+                "normalTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "baseColorTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            },
+            {
+              "slots": [
+                "metallicRoughnessTexture"
+              ],
+              "width": 1536,
+              "height": 1536
+            }
+          ],
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        },
+        {
+          "quality": "overview",
+          "source": "models/final-jades/dragon-phoenix-zhi-roaming.glb",
+          "sourceSha256": "a25becfa37b94130c9596f3dc3f03bd6db017360a63a9302cb53df714c6d34cf",
+          "webPath": "models/final-jades/dragon-phoenix-zhi-overview.glb",
+          "bytes": 481292,
+          "sha256": "7e4a7a7c3fd4e1c6923b860ac29112b1da55a4181b69c71044a7be46c2248db8",
+          "triangles": 8000,
+          "bounds": {
+            "min": [
+              -0.5192550314176789,
+              0.0005279347662662248,
+              -0.13657253541315595
+            ],
+            "max": [
+              0.5942650224186402,
+              0.5234989248262816,
+              0.1333666042081102
+            ]
+          },
+          "validation": {
+            "errors": 0,
+            "warnings": 1
+          }
+        }
+      ],
+      "trianglesBefore": 1500072,
+      "photo": {
+        "source": "玉/龙凤纹玉璏/49f192ca75f710bb959a5d919041cd48~tplv-a9rns2rl98-pc_smart_face_crop-v1_512_384.jpg",
+        "sourceSha256": "fa437f2f421bd282f5c1a3c8e7f0c0ce81e68b4afec0cf4b64c84aaaca2842f2",
+        "webPath": "collection/final-jades/dragon-phoenix-zhi.webp",
+        "sha256": "97eeca43a465be37d00f5a5440bf3784a37ac3d42ebee0b665dd0cb3dd928564",
+        "bytes": 12220,
+        "association": "Supplied folder reference"
+      }
+    }
+  ]
+}

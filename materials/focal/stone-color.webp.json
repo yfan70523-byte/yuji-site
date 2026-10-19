@@ -1,0 +1,66 @@
+{
+  "prompt": "Source asset acquisition, not AI generation: Clean dark-gray fine-grained stone with low-contrast narrow joints for a warm dark-brown tinted floor material. Original Diffuse map from Poly Haven Granite Tile (granite_tile), downloaded via its official API and only resized/converted to WebP. This is a general-purpose photographic PBR material, not a scan of Sanxingdui Museum.",
+  "generator": "scripts/fetch-focal-materials.mjs (download and format conversion only)",
+  "material": "stone",
+  "channel": "color",
+  "assetId": "granite_tile",
+  "author": {
+    "Charlotte Baglioni": "All"
+  },
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "licenseVerifiedOn": "2026-10-14",
+  "url": "https://polyhaven.com/a/granite_tile",
+  "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/granite_tile/granite_tile_diff_1k.jpg",
+  "apiUrl": "https://api.polyhaven.com/files/granite_tile",
+  "sourceFile": "research/focal-material-sources/granite_tile/granite_tile_diff_1k.jpg",
+  "sourceSha256": "9df48b66055588708d446e69f37ea6146b8d5d3df54cd1ff088ec688acdca95c",
+  "officialSourceMd5": "5dfd6dbdb5c0b22ca04505c6209cea9f",
+  "sourceBytes": 676597,
+  "sourceDimensions": {
+    "width": 1024,
+    "height": 1024
+  },
+  "physicalMeters": {
+    "width": 2.3,
+    "height": 2.3
+  },
+  "sourceDimensionsMillimeters": [
+    2299.999952316284,
+    2299.999952316284
+  ],
+  "normalConvention": "OpenGL tangent-space normal, +Y; no green-channel inversion",
+  "orientation": "No rotation; a 5 by 5 grid of roughly 0.46 m square stone slabs fills the 2.3 m scan, without staggered brick courses.",
+  "colorSpace": "sRGB",
+  "conversion": {
+    "width": 1024,
+    "height": 1024,
+    "format": "webp",
+    "colorQuality": 95,
+    "lossless": false,
+    "colorEdits": false,
+    "normalGreenChannelFlipped": false
+  },
+  "sha256": "bed0369f8fbda011bfc0cab1f77dff252ff52ed53d555b9275ffba376ee276ee",
+  "bytes": 335934,
+  "meanChannels": [
+    77.596,
+    78.495,
+    78.601
+  ],
+  "rangeChannels": [
+    [
+      40,
+      136
+    ],
+    [
+      40,
+      130
+    ],
+    [
+      40,
+      130
+    ]
+  ],
+  "measuredMuseumMaterial": false
+}

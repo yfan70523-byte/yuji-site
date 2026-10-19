@@ -6,15 +6,15 @@
   "files": [
     {
       "name": "yuji-book.woff",
-      "bytes": 281696,
-      "sha256": "cfcb44754a3776523efe6aca5ae110e44cebaf939105f6a9b0256282dc13bdbe",
-      "codepoints": 636
+      "bytes": 477748,
+      "sha256": "690d2d14a560869f2cd696b0b5f408c0f488f9fe5f783ac07205a59cb6afb673",
+      "codepoints": 1118
     },
     {
       "name": "yuji-ui.woff",
-      "bytes": 133952,
-      "sha256": "9a17646ac69fab3935a622e543ac22788abdb08b701d99c0108e28f724a1aa45",
-      "codepoints": 636
+      "bytes": 227460,
+      "sha256": "4d65ba7fcdebdf22741e6b9d46ed319baccb1a94e8bec958e1b886af46678c8e",
+      "codepoints": 1118
     }
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "prompt": "Source asset acquisition, not AI generation: Cream fine-woven polyester for display-case lining. Original Diffuse map from Poly Haven Terlenka (terlenka), downloaded via its official API and only resized/converted to WebP. This is a general-purpose photographic PBR material, not a scan of Sanxingdui Museum.",
+  "generator": "scripts/fetch-focal-materials.mjs (download and format conversion only)",
+  "material": "fabric",
+  "channel": "color",
+  "assetId": "terlenka",
+  "author": {
+    "colormass": "Photography",
+    "Rico Cilliers": "Processing"
+  },
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "licenseVerifiedOn": "2026-10-14",
+  "url": "https://polyhaven.com/a/terlenka",
+  "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/terlenka/terlenka_diff_1k.jpg",
+  "apiUrl": "https://api.polyhaven.com/files/terlenka",
+  "sourceFile": "research/focal-material-sources/terlenka/terlenka_diff_1k.jpg",
+  "sourceSha256": "74c4333ed05e133928b0cf6d52e732135c8c0ce6dc8623efa590fb31b90f15c0",
+  "officialSourceMd5": "202624e89023d9ace2845b372015490c",
+  "sourceBytes": 691195,
+  "sourceDimensions": {
+    "width": 1024,
+    "height": 1026
+  },
+  "physicalMeters": {
+    "width": 0.265708,
+    "height": 0.2663
+  },
+  "sourceDimensionsMillimeters": [
+    265.70814767607123,
+    266.2999927997589
+  ],
+  "normalConvention": "OpenGL tangent-space normal, +Y; no green-channel inversion",
+  "orientation": "No rotation; warp and weft follow the source U/V axes.",
+  "colorSpace": "sRGB",
+  "conversion": {
+    "width": 1024,
+    "height": 1024,
+    "format": "webp",
+    "colorQuality": 95,
+    "lossless": false,
+    "colorEdits": false,
+    "normalGreenChannelFlipped": false
+  },
+  "sha256": "b98ee9d6a62db16e3a410d89acfd24f4039ead4b2b445aaa132ac4f9f37a110e",
+  "bytes": 372806,
+  "meanChannels": [
+    196.945,
+    174.802,
+    153.123
+  ],
+  "rangeChannels": [
+    [
+      170,
+      219
+    ],
+    [
+      149,
+      194
+    ],
+    [
+      126,
+      175
+    ]
+  ],
+  "measuredMuseumMaterial": false
+}

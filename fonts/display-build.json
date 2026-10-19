@@ -1,0 +1,25 @@
+{
+  "family": "演示流云楷",
+  "source": "演示流云楷.ttf",
+  "sourceSha256": "d8c3e334b06520efdfe0cdd80ee4459b85982da25b4dd3a38c4c90768a0ebaca",
+  "authorization": "https://github.com/maoken-fonts/slidefont",
+  "license": "SlideFont-OFL.txt",
+  "modification": "UI character subset, renamed Yuji Display Subset",
+  "bytes": 934436,
+  "sha256": "a27fb46e98f7c4d52cc04ce77df3c9c94d217506625d82302b237cc7c0a74458",
+  "codepoints": 1096,
+  "missingCJK": [
+    "國",
+    "宮",
+    "實",
+    "揜",
+    "獸",
+    "玦",
+    "璏",
+    "紋",
+    "臺",
+    "間",
+    "館",
+    "鳥"
+  ]
+}

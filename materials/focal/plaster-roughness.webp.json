@@ -1,0 +1,67 @@
+{
+  "prompt": "Source asset acquisition, not AI generation: Fine matte beige painted plaster for museum walls. Original Rough map from Poly Haven Beige Wall 001 (beige_wall_001), downloaded via its official API and only resized/converted to WebP. This is a general-purpose photographic PBR material, not a scan of Sanxingdui Museum.",
+  "generator": "scripts/fetch-focal-materials.mjs (download and format conversion only)",
+  "material": "plaster",
+  "channel": "roughness",
+  "assetId": "beige_wall_001",
+  "author": {
+    "Dimitrios Savva": "Photography",
+    "Rico Cilliers": "Processing"
+  },
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "licenseVerifiedOn": "2026-10-14",
+  "url": "https://polyhaven.com/a/beige_wall_001",
+  "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/beige_wall_001/beige_wall_001_rough_1k.jpg",
+  "apiUrl": "https://api.polyhaven.com/files/beige_wall_001",
+  "sourceFile": "research/focal-material-sources/beige_wall_001/beige_wall_001_rough_1k.jpg",
+  "sourceSha256": "fc8328f47f4d2d82d5311a75bcb5c8cd8979d171a0ee097ad9e44ca9c5a00d60",
+  "officialSourceMd5": "40d8616d65055c4c984a2807ce933287",
+  "sourceBytes": 151256,
+  "sourceDimensions": {
+    "width": 1024,
+    "height": 1024
+  },
+  "physicalMeters": {
+    "width": 3,
+    "height": 3
+  },
+  "sourceDimensionsMillimeters": [
+    3000,
+    3000.000238418579
+  ],
+  "normalConvention": "OpenGL tangent-space normal, +Y; no green-channel inversion",
+  "orientation": "No rotation; subtle, largely non-directional plaster grain.",
+  "colorSpace": "linear data (no color-space conversion)",
+  "conversion": {
+    "width": 1024,
+    "height": 1024,
+    "format": "webp",
+    "colorQuality": null,
+    "lossless": true,
+    "colorEdits": false,
+    "normalGreenChannelFlipped": false
+  },
+  "sha256": "f42cc5630541fc1e8fc64d7d838db7a764fa0ae2c7e1295dc9a90f9ece8d35f8",
+  "bytes": 466050,
+  "meanChannels": [
+    158.405,
+    158.405,
+    158.405
+  ],
+  "rangeChannels": [
+    [
+      126,
+      255
+    ],
+    [
+      126,
+      255
+    ],
+    [
+      126,
+      255
+    ]
+  ],
+  "measuredMuseumMaterial": false
+}

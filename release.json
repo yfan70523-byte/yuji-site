@@ -1,0 +1,10 @@
+{
+  "version": "2026-10-19",
+  "sourceCommit": "2dd2e124479b9086fa29de5d388d4baa92fc4365",
+  "entrypoints": [
+    "index.html",
+    "museum.html",
+    "gallery.html",
+    "book.html"
+  ]
+}

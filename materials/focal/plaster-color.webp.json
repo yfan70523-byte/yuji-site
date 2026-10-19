@@ -1,0 +1,67 @@
+{
+  "prompt": "Source asset acquisition, not AI generation: Fine matte beige painted plaster for museum walls. Original Diffuse map from Poly Haven Beige Wall 001 (beige_wall_001), downloaded via its official API and only resized/converted to WebP. This is a general-purpose photographic PBR material, not a scan of Sanxingdui Museum.",
+  "generator": "scripts/fetch-focal-materials.mjs (download and format conversion only)",
+  "material": "plaster",
+  "channel": "color",
+  "assetId": "beige_wall_001",
+  "author": {
+    "Dimitrios Savva": "Photography",
+    "Rico Cilliers": "Processing"
+  },
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "licenseVerifiedOn": "2026-10-14",
+  "url": "https://polyhaven.com/a/beige_wall_001",
+  "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/beige_wall_001/beige_wall_001_diff_1k.jpg",
+  "apiUrl": "https://api.polyhaven.com/files/beige_wall_001",
+  "sourceFile": "research/focal-material-sources/beige_wall_001/beige_wall_001_diff_1k.jpg",
+  "sourceSha256": "72104704d0b9bd3713c5f6238971252b63eccf6e61263059c674caa8f3d0fa6d",
+  "officialSourceMd5": "a99610d7d72ec6fb20ae991ad69b3eb7",
+  "sourceBytes": 33074,
+  "sourceDimensions": {
+    "width": 1024,
+    "height": 1024
+  },
+  "physicalMeters": {
+    "width": 3,
+    "height": 3
+  },
+  "sourceDimensionsMillimeters": [
+    3000,
+    3000.000238418579
+  ],
+  "normalConvention": "OpenGL tangent-space normal, +Y; no green-channel inversion",
+  "orientation": "No rotation; subtle, largely non-directional plaster grain.",
+  "colorSpace": "sRGB",
+  "conversion": {
+    "width": 1024,
+    "height": 1024,
+    "format": "webp",
+    "colorQuality": 95,
+    "lossless": false,
+    "colorEdits": false,
+    "normalGreenChannelFlipped": false
+  },
+  "sha256": "883fe13ec49d8fd743cc56f539fa7cd20deea940bf5eb28627a54406ef38a44f",
+  "bytes": 21126,
+  "meanChannels": [
+    157.901,
+    140.622,
+    119.652
+  ],
+  "rangeChannels": [
+    [
+      119,
+      167
+    ],
+    [
+      102,
+      150
+    ],
+    [
+      77,
+      130
+    ]
+  ],
+  "measuredMuseumMaterial": false
+}

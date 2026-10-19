@@ -1,0 +1,17 @@
+{
+  "generator": "scripts/create-atrium-sky.mjs",
+  "source": "Authored analytic radial luminance field",
+  "width": 256,
+  "height": 256,
+  "colorSpace": "sRGB",
+  "linearLuminanceRange": [
+    0.76,
+    1
+  ],
+  "purpose": "Background visible through the existing overcast skylight; lighting remains the physical area source and baked transport.",
+  "measuredSky": false,
+  "HDRI": false,
+  "roomImage": false,
+  "sha256": "90ce2f70139f8db6f3ccc7df654b17acb5e2701424232dc2c88c7dd7f3fe29cb",
+  "bytes": 3084
+}

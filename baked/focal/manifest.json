@@ -1,0 +1,725 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-14T16:18:22.988955+00:00",
+  "method": "Blender Cycles static diffuse direct + indirect light transport",
+  "blenderVersion": "4.5.3 LTS",
+  "device": "CPU",
+  "samples": 1024,
+  "adaptiveSampling": true,
+  "adaptiveThreshold": 0.01,
+  "adaptiveMinSamples": 64,
+  "normalMapsBaked": false,
+  "denoising": {
+    "method": "OpenImageDenoise RT HDR",
+    "device": "CPU",
+    "islands": 719,
+    "processedIslands": 719,
+    "islandIsolation": "independent buffers and alpha masks",
+    "edgeExtensionPixels": 16,
+    "seconds": 18.456
+  },
+  "bounces": {
+    "total": 6,
+    "diffuse": 4,
+    "glossy": 4,
+    "transmission": 4
+  },
+  "bakeSize": 2048,
+  "marginPixels": 8,
+  "RGBMRange": 64.0,
+  "atlasLinearDensityWeights": {
+    "caseCeiling": 3.0
+  },
+  "emissiveSurfaceSampling": "FRONT_BACK",
+  "passes": {
+    "direct": true,
+    "indirect": true,
+    "color": false
+  },
+  "worldStrength": 0.03,
+  "lightScale": 1.0,
+  "texture": {
+    "file": "irradiance.png",
+    "encoding": "RGBM",
+    "range": 64.0,
+    "colorSpace": "NoColorSpace",
+    "flipY": false,
+    "decode": "texel.rgb * texel.a * 64.0",
+    "uvAttribute": "uv1",
+    "albedoIncluded": false,
+    "viewTransformApplied": false
+  },
+  "geometry": {
+    "file": "geometry.glb",
+    "coordinates": "Three.js Y-up, baked world transforms",
+    "uv0": "original texture UV0, unchanged",
+    "uv1": "u, 1 - Blender BakeUV v",
+    "sourceIdExtra": "museumSourceId",
+    "materialIdExtra": "museumMaterial"
+  },
+  "objects": [
+    {
+      "id": "focal:dark:true",
+      "material": "dark",
+      "vertices": 2609,
+      "triangles": 1040
+    },
+    {
+      "id": "focal:casePaint:true",
+      "material": "casePaint",
+      "vertices": 761,
+      "triangles": 320
+    },
+    {
+      "id": "focal:focalLining:true",
+      "material": "focalLining",
+      "vertices": 768,
+      "triangles": 320
+    },
+    {
+      "id": "focal:bronze:false",
+      "material": "bronze",
+      "vertices": 456,
+      "triangles": 216
+    },
+    {
+      "id": "focal:wood:true",
+      "material": "wood",
+      "vertices": 2089,
+      "triangles": 812
+    },
+    {
+      "id": "focal:caseCeiling:true",
+      "material": "caseCeiling",
+      "vertices": 784,
+      "triangles": 320
+    },
+    {
+      "id": "focal:light:true",
+      "material": "light",
+      "vertices": 348,
+      "triangles": 144
+    },
+    {
+      "id": "focal:floor:false",
+      "material": "floor",
+      "vertices": 149,
+      "triangles": 216
+    },
+    {
+      "id": "focal:plaster:false",
+      "material": "plaster",
+      "vertices": 7448,
+      "triangles": 2504
+    },
+    {
+      "id": "focal:coveDish:false",
+      "material": "coveDish",
+      "vertices": 3072,
+      "triangles": 1024
+    },
+    {
+      "id": "focal:red:false",
+      "material": "red",
+      "vertices": 2992,
+      "triangles": 1036
+    },
+    {
+      "id": "focal:coveEmitter:false",
+      "material": "coveEmitter",
+      "vertices": 960,
+      "triangles": 320
+    },
+    {
+      "id": "focal:red:true",
+      "material": "red",
+      "vertices": 5655,
+      "triangles": 2032
+    },
+    {
+      "id": "focal:galleryWall:true",
+      "material": "galleryWall",
+      "vertices": 1536,
+      "triangles": 512
+    },
+    {
+      "id": "focal:plaster:true",
+      "material": "plaster",
+      "vertices": 768,
+      "triangles": 256
+    },
+    {
+      "id": "focal:dark:false",
+      "material": "dark",
+      "vertices": 1248,
+      "triangles": 416
+    }
+  ],
+  "sourceMeshes": 32,
+  "bakedMeshes": 16,
+  "triangles": 11488,
+  "lights": [
+    {
+      "id": "source-SPOT-0",
+      "type": "spot",
+      "energyWatts": 133.51768493652344
+    },
+    {
+      "id": "source-AREA-1",
+      "type": "area",
+      "energyWatts": 63.51043701171875
+    },
+    {
+      "id": "source-AREA-2",
+      "type": "area",
+      "energyWatts": 101.33521270751953
+    },
+    {
+      "id": "source-SPOT-3",
+      "type": "spot",
+      "energyWatts": 78.5398178100586
+    },
+    {
+      "id": "source-AREA-4",
+      "type": "area",
+      "energyWatts": 101.33521270751953
+    },
+    {
+      "id": "source-SPOT-5",
+      "type": "spot",
+      "energyWatts": 78.5398178100586
+    },
+    {
+      "id": "source-AREA-6",
+      "type": "area",
+      "energyWatts": 101.33521270751953
+    },
+    {
+      "id": "source-SPOT-7",
+      "type": "spot",
+      "energyWatts": 78.5398178100586
+    },
+    {
+      "id": "source-AREA-8",
+      "type": "area",
+      "energyWatts": 101.33521270751953
+    },
+    {
+      "id": "source-SPOT-9",
+      "type": "spot",
+      "energyWatts": 78.5398178100586
+    },
+    {
+      "id": "source-AREA-10",
+      "type": "area",
+      "energyWatts": 101.33521270751953
+    },
+    {
+      "id": "source-SPOT-11",
+      "type": "spot",
+      "energyWatts": 78.5398178100586
+    },
+    {
+      "id": "source-AREA-12",
+      "type": "area",
+      "energyWatts": 88.53636169433594
+    },
+    {
+      "id": "source-AREA-13",
+      "type": "area",
+      "energyWatts": 88.53636169433594
+    },
+    {
+      "id": "source-AREA-14",
+      "type": "area",
+      "energyWatts": 88.53636169433594
+    },
+    {
+      "id": "source-AREA-15",
+      "type": "area",
+      "energyWatts": 88.53636169433594
+    },
+    {
+      "id": "source-AREA-16",
+      "type": "area",
+      "energyWatts": 88.53636169433594
+    },
+    {
+      "id": "source-AREA-17",
+      "type": "area",
+      "energyWatts": 88.53636169433594
+    },
+    {
+      "id": "source-AREA-18",
+      "type": "area",
+      "energyWatts": 101.33521270751953
+    },
+    {
+      "id": "source-AREA-19",
+      "type": "area",
+      "energyWatts": 101.33521270751953
+    },
+    {
+      "id": "source-AREA-20",
+      "type": "area",
+      "energyWatts": 101.33521270751953
+    },
+    {
+      "id": "source-AREA-21",
+      "type": "area",
+      "energyWatts": 101.33521270751953
+    },
+    {
+      "id": "source-AREA-22",
+      "type": "area",
+      "energyWatts": 35.342918395996094
+    },
+    {
+      "id": "source-AREA-23",
+      "type": "area",
+      "energyWatts": 176.71458435058594
+    },
+    {
+      "id": "source-AREA-24",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-25",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-26",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-27",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-28",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-29",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-30",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-31",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-32",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-33",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-34",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-35",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-36",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-37",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-38",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-AREA-39",
+      "type": "area",
+      "energyWatts": 2.412743091583252
+    },
+    {
+      "id": "source-POINT-40",
+      "type": "point",
+      "energyWatts": 527.7875366210938
+    },
+    {
+      "id": "source-POINT-41",
+      "type": "point",
+      "energyWatts": 527.7875366210938
+    }
+  ],
+  "statistics": {
+    "maxLinearValue": 26.89809799194336,
+    "clippedPixels": 0,
+    "nonzeroPixels": 1051290,
+    "negativeComponents": 0,
+    "p50LinearMaximum": 0.0,
+    "p95LinearMaximum": 0.31810342073440534,
+    "p99LinearMaximum": 1.1265347123146017
+  },
+  "rawStatistics": {
+    "maxLinearValue": 24.92812728881836,
+    "clippedPixels": 0,
+    "nonzeroPixels": 1007075,
+    "negativeComponents": 0,
+    "p50LinearMaximum": 0.0,
+    "p95LinearMaximum": 0.31824755966663354,
+    "p99LinearMaximum": 1.1345577073097124
+  },
+  "timingSeconds": {
+    "prepare": 4.96,
+    "bake": 969.099,
+    "encodeAndExport": 23.728,
+    "total": 997.787
+  },
+  "source": {
+    "scene": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\scene.json",
+    "sceneSha256": "e4e401914df73859080be1e6cb2015884d844b05182d7c5d70a6470a39828134",
+    "scriptSha256": "b75e5a5d309da15153af52b63c49f61533bb2b8037755869c0e24a1948b93d03",
+    "textures": [
+      {
+        "path": "public/materials/focal/stone-color.webp",
+        "sha256": "bed0369f8fbda011bfc0cab1f77dff252ff52ed53d555b9275ffba376ee276ee"
+      },
+      {
+        "path": "public/materials/focal/stone-normal.webp",
+        "sha256": "e2ac15d94233bd183b034d46abe230bdaa19c27e27a375a7c67dc538908e8126"
+      },
+      {
+        "path": "public/materials/focal/stone-roughness.webp",
+        "sha256": "5eb69cf05a3a82df364e7bc345dfdc8e283e69e627fe98569d8d5e7a69b220a0"
+      },
+      {
+        "path": "public/materials/focal/plaster-color.webp",
+        "sha256": "883fe13ec49d8fd743cc56f539fa7cd20deea940bf5eb28627a54406ef38a44f"
+      },
+      {
+        "path": "public/materials/focal/plaster-normal.webp",
+        "sha256": "223498f5920ce24dffe27620f196527f47cbec0914e058ba1000a955e452e690"
+      },
+      {
+        "path": "public/materials/focal/plaster-roughness.webp",
+        "sha256": "f42cc5630541fc1e8fc64d7d838db7a764fa0ae2c7e1295dc9a90f9ece8d35f8"
+      },
+      {
+        "path": "public/materials/focal/timber-normal.webp",
+        "sha256": "ca154d0c28fe7bddf605995beaeee5612410c1979194ffddb0179d27a67d09f7"
+      },
+      {
+        "path": "public/materials/focal/fabric-color.webp",
+        "sha256": "b98ee9d6a62db16e3a410d89acfd24f4039ead4b2b445aaa132ac4f9f37a110e"
+      },
+      {
+        "path": "public/materials/focal/fabric-normal.webp",
+        "sha256": "9ae379d3ec30e1e966bb80ca73e1bb8e06b7a88e45474b58e0c63997fc92a0ac"
+      },
+      {
+        "path": "public/materials/focal/fabric-roughness.webp",
+        "sha256": "6d72181a7df1fdcc27993fde3ec8f2fcde8dd9b3b26bdfe1c8d63b17b9c69ef2"
+      },
+      {
+        "path": "public/materials/focal/timber-color.webp",
+        "sha256": "ebc0ba5ef1bcf4ca85d279fa800c42b1feb544973d4e29468bae1b34a4f43de1"
+      },
+      {
+        "path": "public/materials/focal/timber-roughness.webp",
+        "sha256": "10d31f75a8de3195c33a4f8f54c51fe1354e7d3ef16baac886364c21ca4c553d"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "irradiance.png",
+      "sha256": "934f40b77f3a808e017353ee041f6e923ab3459f9445fee447e3f57c82438774",
+      "bytes": 2312879
+    },
+    {
+      "path": "geometry.glb",
+      "bytes": 1421792,
+      "sha256": "4ecec15cb0a53f5f6374bc5072646ec4f0762c9442dc22636478d5818ccc2023"
+    }
+  ],
+  "floatDebugImage": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\canopy-refinement\\irradiance.canopy-refined.raw.exr",
+  "denoisedFloatDebugImage": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\canopy-refinement\\irradiance.canopy-refined.exr",
+  "provenance": {
+    "lighting": "Computed from the supplied static 3D geometry, area/point/spot lights and emissive surfaces using Cycles path tracing.",
+    "photographicMaterials": "Source texture files are tracked by hashes; photographic PBR materials are not scans of the original museum.",
+    "geometry": "Reference reconstruction, not a measured 1:1 survey.",
+    "notABackdrop": true
+  },
+  "rawStatisticsRange": 64.0,
+  "reencodingHistory": [
+    {
+      "generatedAt": "2026-10-14T16:18:25.634763+00:00",
+      "operation": "RGBM reencoding of the existing final denoised EXR; no rebake or further denoising",
+      "sourceEXR": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\irradiance.denoised.exr",
+      "sourceEXRSha256": "26c098f7fd6041b62ae0e49bc0dcaa332e69169844f7c1da6dbd50c82383d571",
+      "previousImageSha256": "dafb8dd543c168161cf1dcb18fd45c2a3358708b074c83d1f061dbdb387cf9f6",
+      "previousRange": 16.0,
+      "previousStatistics": {
+        "maxLinearValue": 39.52539825439453,
+        "clippedPixels": 2872,
+        "nonzeroPixels": 1053473,
+        "negativeComponents": 0,
+        "p50LinearMaximum": 0.0,
+        "p95LinearMaximum": 0.3181105107069012,
+        "p99LinearMaximum": 1.1265863394737183
+      },
+      "range": 64.0,
+      "script": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\scripts\\reencode-focal-light.py",
+      "scriptSha256": "b0510cc48bc5e9a2d4402fb5a229859a162432d1a196212d077b91e1e473abeb",
+      "encoderScript": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\scripts\\bake-focal-light.py",
+      "encoderScriptSha256": "b75e5a5d309da15153af52b63c49f61533bb2b8037755869c0e24a1948b93d03",
+      "command": [
+        "D:\\本科\\数媒比赛\\tools\\blender-portable\\blender-4.5.3-windows-x64\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\scripts\\reencode-focal-light.py",
+        "--",
+        "--manifest",
+        "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\public\\baked\\focal\\manifest.json",
+        "--rgbm-range",
+        "64.0"
+      ],
+      "maxRoundTripAbsoluteError": 0.06314849853515625,
+      "geometrySha256": "4ecec15cb0a53f5f6374bc5072646ec4f0762c9442dc22636478d5818ccc2023",
+      "durationSeconds": 1.457
+    },
+    {
+      "generatedAt": "2026-10-15T08:33:16.963903+00:00",
+      "operation": "Encode merged canopy-refined linear EXR as RGBM",
+      "sourceEXR": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\canopy-refinement\\irradiance.canopy-refined.exr",
+      "sourceEXRSha256": "f48f6d1f4fd7f9c8e7226942296f394e417049d10459a54db7522464129f5de3",
+      "range": 64.0,
+      "script": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\scripts\\refine-focal-canopy.py",
+      "scriptSha256": "70460ab9f8691e293489b92248829161133a6801892ff1baa208778febb99dbf",
+      "command": [
+        "D:\\本科\\数媒比赛\\tools\\blender-portable\\blender-4.5.3-windows-x64\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\scripts\\refine-focal-canopy.py",
+        "--",
+        "--manifest",
+        "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\canopy-refinement\\baseline-manifest.json",
+        "--work",
+        "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\canopy-refinement",
+        "--samples",
+        "1024",
+        "--seed",
+        "83",
+        "--pass-type",
+        "both",
+        "--publish"
+      ]
+    }
+  ],
+  "reencoding": {
+    "generatedAt": "2026-10-15T08:33:16.963903+00:00",
+    "operation": "Encode merged canopy-refined linear EXR as RGBM",
+    "sourceEXR": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\canopy-refinement\\irradiance.canopy-refined.exr",
+    "sourceEXRSha256": "f48f6d1f4fd7f9c8e7226942296f394e417049d10459a54db7522464129f5de3",
+    "range": 64.0,
+    "script": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\scripts\\refine-focal-canopy.py",
+    "scriptSha256": "70460ab9f8691e293489b92248829161133a6801892ff1baa208778febb99dbf",
+    "command": [
+      "D:\\本科\\数媒比赛\\tools\\blender-portable\\blender-4.5.3-windows-x64\\blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\scripts\\refine-focal-canopy.py",
+      "--",
+      "--manifest",
+      "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\canopy-refinement\\baseline-manifest.json",
+      "--work",
+      "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\canopy-refinement",
+      "--samples",
+      "1024",
+      "--seed",
+      "83",
+      "--pass-type",
+      "both",
+      "--publish"
+    ]
+  },
+  "partialRefinement": {
+    "generatedAt": "2026-10-15T08:33:16.963903+00:00",
+    "operation": "Equal-weight merge of original and independent canopy diffuse samples; geometry-guided denoising only on its own UV islands",
+    "scope": {
+      "sourceMesh": "focal:plaster:false",
+      "triangles": 2048,
+      "physicalComponent": "entire crown shell r=2.38..3.39, y=3.78..4.24",
+      "UVIslands": 14,
+      "cameraDependent": false,
+      "otherObjects": "Original denoised float and encoded RGBA texels preserved exactly"
+    },
+    "originalSampleBudget": 1024,
+    "originalAdaptiveSampling": true,
+    "independentBatch": {
+      "samples": 1024,
+      "seed": 83,
+      "pass": "both",
+      "adaptiveSampling": false,
+      "seconds": 45.818
+    },
+    "sourceSceneSha256": "e4e401914df73859080be1e6cb2015884d844b05182d7c5d70a6470a39828134",
+    "baselineManifest": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\canopy-refinement\\baseline-manifest.json",
+    "baselineManifestSha256": "bb5f75826e030deaff774fdf5ca5116c906a10b98d51c78182a0b91a6e6f6c82",
+    "baselineImageSha256": "131b8d8744a41b41aabd784cda923caae76bbeee02850b82848dffbf9d1bfe2a",
+    "baselineRawEXR": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\irradiance.exr",
+    "baselineRawEXRSha256": "d69106d031e0f187b932e53710480def4b9aaa1d0250111c807080dada5bffdd",
+    "baselineDenoisedEXR": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\irradiance.denoised.exr",
+    "baselineDenoisedEXRSha256": "26c098f7fd6041b62ae0e49bc0dcaa332e69169844f7c1da6dbd50c82383d571",
+    "independentEXR": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\canopy-refinement\\canopy-both-1024-seed83.exr",
+    "independentEXRSha256": "6d5f9d840f88bc073260a156ee5baa208ffbda5aff2c154810f86fa101442128",
+    "mergedEXR": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\canopy-refinement\\irradiance.canopy-refined.exr",
+    "mergedEXRSha256": "f48f6d1f4fd7f9c8e7226942296f394e417049d10459a54db7522464129f5de3",
+    "reproductionScript": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\scripts\\refine-focal-canopy.py",
+    "reproductionScriptSha256": "70460ab9f8691e293489b92248829161133a6801892ff1baa208778febb99dbf",
+    "integratorImplementationSha256": "09dc10a07ac5a704b6248f250735da4f6f8d697eb197612d7247189f9db3ec79",
+    "originalBakeModuleSha256": "b75e5a5d309da15153af52b63c49f61533bb2b8037755869c0e24a1948b93d03",
+    "command": [
+      "D:\\本科\\数媒比赛\\tools\\blender-portable\\blender-4.5.3-windows-x64\\blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\scripts\\refine-focal-canopy.py",
+      "--",
+      "--manifest",
+      "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\canopy-refinement\\baseline-manifest.json",
+      "--work",
+      "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\canopy-refinement",
+      "--samples",
+      "1024",
+      "--seed",
+      "83",
+      "--pass-type",
+      "both",
+      "--publish"
+    ],
+    "denoising": {
+      "method": "OIDN RT HDR with clean geometric normal and unit albedo guides",
+      "islandIsolation": "independent buffers and nearest extension from same island only",
+      "processedIslands": 14,
+      "seconds": 0.534
+    },
+    "independentValidation": {
+      "independentValidationImage": "research\\focal-bake\\canopy-refinement\\canopy-both-1024-seed83.exr",
+      "independentValidationSha256": "6d5f9d840f88bc073260a156ee5baa208ffbda5aff2c154810f86fa101442128",
+      "oldDenoiseVsIndependentRawMSE": 0.00020396610118609174,
+      "guidedDenoiseVsIndependentRawMSE": 0.00014446208823534876,
+      "baseline": {
+        "texels": 13507,
+        "mean": 0.16260812385786932,
+        "percentiles": [
+          0.03459061269851029,
+          0.050558004299774764,
+          0.08114172944016754,
+          0.1622912109464407,
+          0.2197204970523715,
+          0.318832481777668,
+          0.38678741018033036
+        ],
+        "localResidualRMS": 0.008957515431480169,
+        "localResidualP95": 0.02038818810541179
+      },
+      "baselineGuided": {
+        "texels": 13507,
+        "mean": 0.16220661703527917,
+        "percentiles": [
+          0.03378844242744147,
+          0.05076787798270583,
+          0.08154724961742757,
+          0.1615632008165121,
+          0.2203229215145111,
+          0.31910558466911315,
+          0.38596431283283233
+        ],
+        "localResidualRMS": 0.0014175624329635379,
+        "localResidualP95": 0.0015634990897401887
+      },
+      "averagedRaw": {
+        "texels": 13507,
+        "mean": 0.1622413725200717,
+        "percentiles": [
+          0.033398634824067346,
+          0.0470374525013566,
+          0.08185886379554869,
+          0.16131082989275455,
+          0.2203498263567686,
+          0.3195794097834825,
+          0.3862173741405012
+        ],
+        "localResidualRMS": 0.00990592844998116,
+        "localResidualP95": 0.019702910062307476
+      },
+      "candidate": {
+        "texels": 13507,
+        "mean": 0.16218146355455726,
+        "percentiles": [
+          0.03380989166295528,
+          0.05059699370227754,
+          0.08121373177580535,
+          0.16151970268785953,
+          0.22016351785808802,
+          0.31917951799035066,
+          0.3862064828333856
+        ],
+        "localResidualRMS": 0.0014237932480623528,
+        "localResidualP95": 0.0015439233002812018
+      },
+      "denoising": {
+        "method": "OIDN RT HDR with clean geometric normal and unit albedo guides",
+        "islandIsolation": "independent buffers and nearest extension from same island only",
+        "processedIslands": 14,
+        "seconds": 0.534
+      }
+    },
+    "verification": {
+      "patchTexelsIncludingOwnGutters": 94103,
+      "untouchedTexels": 4100201,
+      "changedOutsidePatch": 0,
+      "unchangedPixelBytesSha256Before": "40855b6e32aadffcfa81e68e2726be0116ec24f05d1e8e14c4f99b9e5efc9073",
+      "unchangedPixelBytesSha256After": "40855b6e32aadffcfa81e68e2726be0116ec24f05d1e8e14c4f99b9e5efc9073",
+      "floatTexelsOutsidePatchBitIdentical": true,
+      "unrelatedSurfaceUVOverlapPixels": 0,
+      "geometrySha256Before": "4ecec15cb0a53f5f6374bc5072646ec4f0762c9442dc22636478d5818ccc2023",
+      "geometrySha256After": "4ecec15cb0a53f5f6374bc5072646ec4f0762c9442dc22636478d5818ccc2023",
+      "mask": "D:\\本科\\数媒比赛\\玉记\\yuji-3d-lab\\research\\focal-bake\\canopy-refinement\\canopy-patch-mask.npz",
+      "maskSha256": "b84718707e4ab2760613b26d44afff3bd39c2d7eec9bbbb60fe5ae32c6940712",
+      "clippedPixels": 0
+    }
+  },
+  "lastUpdatedAt": "2026-10-15T08:33:16.963903+00:00"
+}

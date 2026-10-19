@@ -1,0 +1,78 @@
+{
+  "sourceRoot": "../三维建模/新建文件夹 - 副本",
+  "process": "weld; simplify ratio 0.18 / error 0.001; 2048px WebP (base color quality90, data maps lossless); Meshopt; clamp invalid specular color to [0,1]",
+  "models": [
+    {
+      "id": "liangzhu",
+      "source": "新石器时代/aa9bb9d5c927c132c1df52aa8dab7cb4.glb",
+      "sourceBytes": 80052880,
+      "sourceSha256": "a807104e256065e609faa873a12f5eccf28263c6d1f86e7e691739e2d269da2a",
+      "trianglesBefore": 1495682,
+      "trianglesAfter": 269220,
+      "webPath": "models/collection/liangzhu.glb",
+      "webBytes": 6919604,
+      "webSha256": "509a86bee7082931b55502bd882f11d3f37198f63ec3fa2b2e5d5fc39ed8cf59"
+    },
+    {
+      "id": "qijia",
+      "source": "新石器时代晚期/3a72c81c6f6c8c59621015a609cf5d6c.glb",
+      "sourceBytes": 69528944,
+      "sourceSha256": "d6f94d09fc429fe47b65f92288cfeb38c9e8c2998325a857a47910975ee142ee",
+      "trianglesBefore": 1499904,
+      "trianglesAfter": 269982,
+      "webPath": "models/collection/qijia.glb",
+      "webBytes": 4782768,
+      "webSha256": "ebb4aac9812b1cd8a7c735459d8bb4062eb165ed2c65828bf100dc05e581b3c3"
+    },
+    {
+      "id": "shang",
+      "source": "商代/7555b0fe8daa57744eeea308ff91ec82.glb",
+      "sourceBytes": 70548292,
+      "sourceSha256": "cdafe19cb6c4b468d24726333016192095d326b490b0ed357883a334ffe7613c",
+      "trianglesBefore": 1498890,
+      "trianglesAfter": 269800,
+      "webPath": "models/collection/shang.glb",
+      "webBytes": 5054748,
+      "webSha256": "b0291b9201848a977ca7b7853cc2593b1881d1c1d5e890a525b059d9c771ef6d"
+    },
+    {
+      "id": "zhou",
+      "source": "西周/345090e4bcecc4ba1b19d4ef9ec463df.glb",
+      "sourceBytes": 63107728,
+      "sourceSha256": "d08102dc3e10d74068d1388b80e137fde44bfa17bf7b5e1a802ab2066866e08d",
+      "trianglesBefore": 1496058,
+      "trianglesAfter": 269290,
+      "webPath": "models/collection/zhou.glb",
+      "webBytes": 3758968,
+      "webSha256": "f91c9adf769f98569916e4305d9b904d97436ced650a9adc17a86d155d321c5a"
+    },
+    {
+      "id": "zhanguohan",
+      "source": "../4f64a3cc811f49ff3988fc21fb5431a3.glb",
+      "sourceBytes": 63643408,
+      "sourceSha256": "6056c46464ab75d9eee4c8b433ba70062b324b0c9c3d0c6c2c91b2f301dd6cdb",
+      "trianglesBefore": 1499764,
+      "trianglesAfter": 270000,
+      "webPath": "models/collection/zhanguohan.glb",
+      "webBytes": 3609788,
+      "webSha256": "4fde677890189c051ed7e077dab78e0380af1944d8ad4841e7355e2ea8e798fa",
+      "previousSource": {
+        "source": "春秋战国——汉代/0ca310d0bba85c87db35e06d88d9b018.glb",
+        "sourceSha256": "51f3e29ec6c31023351b9f4ba10f1722eeb00572b5ec7d24a2ad94808c3c8e98",
+        "webSha256": "e4f45a2025e5176b0492b69d964d5104a4738f9b95c0f211ce0f666594da381a"
+      },
+      "replacementDate": "2026-10-18"
+    },
+    {
+      "id": "songmingqing",
+      "source": "宋、明、清/a92be72f9bf046a9391021e134990f9f.glb",
+      "sourceBytes": 75241940,
+      "sourceSha256": "5980be16d357552f22b57b92be2c2d0d34ad37d0b2eb16e75e340e179d81e193",
+      "trianglesBefore": 1495361,
+      "trianglesAfter": 269164,
+      "webPath": "models/collection/songmingqing.glb",
+      "webBytes": 6060352,
+      "webSha256": "890decf65548693620d9c7c53e9ebdf81ff48630b2011f4cd9ac7ef305707eff"
+    }
+  ]
+}

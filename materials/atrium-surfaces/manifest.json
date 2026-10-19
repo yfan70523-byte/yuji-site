@@ -1,0 +1,76 @@
+{
+  "generator": "scripts/create-atrium-surfaces.mjs",
+  "kind": "authored procedural stone foundation, original flat ink composition and derived CC0 wall roughness",
+  "measuredScan": false,
+  "stoneTileMeters": 1.2,
+  "stoneResolution": 1024,
+  "floorTileMeters": 2.4,
+  "floorJointWidthMeters": 0.0028,
+  "seed": 732451,
+  "files": [
+    {
+      "file": "stone-color.webp",
+      "colorSpace": "sRGB",
+      "bytes": 444178,
+      "sha256": "38facd3ad4ec8f18dc8f6517d8dd328d127e90ad70c7f8f2a4623e7900738bf1"
+    },
+    {
+      "file": "stone-normal.webp",
+      "colorSpace": "NoColorSpace",
+      "bytes": 420466,
+      "sha256": "fbc05c43e3cc4ff3bc93c648bfdc35b9c0da2a0e74adab668f61c845d1e07f80"
+    },
+    {
+      "file": "stone-roughness.webp",
+      "colorSpace": "NoColorSpace",
+      "bytes": 409662,
+      "sha256": "7d0923ef6918694bcb98d62b6c11ab877aeb519d2c642475e380d1cf7e66ec69"
+    },
+    {
+      "file": "floor-color.webp",
+      "colorSpace": "sRGB",
+      "bytes": 319730,
+      "sha256": "dc8535567dd28d48ddb0e477422eaa8385b0d04febaefc2bda29f7139208d6f4",
+      "tileMeters": 2.4,
+      "heightRangeMeters": 0.00261,
+      "source": "Project-authored periodic mineral fields, height-derived tangent normals; not scanned stone"
+    },
+    {
+      "file": "floor-normal.webp",
+      "colorSpace": "NoColorSpace",
+      "bytes": 206626,
+      "sha256": "c2729dc7ad9105c6b6a841b0437e39390d2cf346128d546358d4a8662e366921",
+      "tileMeters": 2.4,
+      "heightRangeMeters": 0.00261,
+      "source": "Project-authored periodic mineral fields, height-derived tangent normals; not scanned stone"
+    },
+    {
+      "file": "floor-roughness.webp",
+      "colorSpace": "NoColorSpace",
+      "bytes": 118958,
+      "sha256": "7dc9eef98db6abc7d80cc0ccfee252c2590f6088724f779897ce213c17bc25ec",
+      "tileMeters": 2.4,
+      "heightRangeMeters": 0.00261,
+      "source": "Project-authored periodic mineral fields, height-derived tangent normals; not scanned stone"
+    },
+    {
+      "file": "wall-roughness.webp",
+      "colorSpace": "NoColorSpace",
+      "bytes": 193872,
+      "sha256": "bc53fa4621552cdf03c30a9069e7092484ac45e27aec09478297f703a195ec9a",
+      "derivedFrom": "materials/focal/plaster-roughness.webp",
+      "sourceSha256": "f42cc5630541fc1e8fc64d7d838db7a764fa0ae2c7e1295dc9a90f9ece8d35f8",
+      "sourceUrl": "https://polyhaven.com/a/beige_wall_001",
+      "license": "CC0-1.0",
+      "operation": "linear data remap: 0.76 + 0.14 * original roughness"
+    },
+    {
+      "file": "ink-mural.webp",
+      "colorSpace": "sRGB",
+      "bytes": 8690,
+      "sha256": "983ed53db58cfd0a538df2719e4e875b1464a88bbc3a8d1631fab6b4f69e91ad",
+      "source": "Original flat vector ink-landscape composition; no museum reference render pasted into scene",
+      "license": "project-authored"
+    }
+  ]
+}

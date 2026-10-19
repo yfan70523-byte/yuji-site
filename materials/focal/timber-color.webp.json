@@ -1,0 +1,67 @@
+{
+  "prompt": "Source asset acquisition, not AI generation: Clean red-brown varnished wood with fine grain for architectural joinery. Original Diffuse map from Poly Haven Wood Table 001 (wood_table_001), downloaded via its official API and only resized/converted to WebP. This is a general-purpose photographic PBR material, not a scan of Sanxingdui Museum.",
+  "generator": "scripts/fetch-focal-materials.mjs (download and format conversion only)",
+  "material": "timber",
+  "channel": "color",
+  "assetId": "wood_table_001",
+  "author": {
+    "Dimitrios Savva": "Photography",
+    "Rico Cilliers": "Processing"
+  },
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "licenseVerifiedOn": "2026-10-14",
+  "url": "https://polyhaven.com/a/wood_table_001",
+  "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_table_001/wood_table_001_diff_1k.jpg",
+  "apiUrl": "https://api.polyhaven.com/files/wood_table_001",
+  "sourceFile": "research/focal-material-sources/wood_table_001/wood_table_001_diff_1k.jpg",
+  "sourceSha256": "460dd08d240f4a1f02982415048c3c5c200f385db212da18dc7e2df68bf4d0be",
+  "officialSourceMd5": "56652a7339b16a76afad20d3585f66ea",
+  "sourceBytes": 215573,
+  "sourceDimensions": {
+    "width": 1024,
+    "height": 1024
+  },
+  "physicalMeters": {
+    "width": 1.5,
+    "height": 1.5
+  },
+  "sourceDimensionsMillimeters": [
+    1500,
+    1500.0001192092896
+  ],
+  "normalConvention": "OpenGL tangent-space normal, +Y; no green-channel inversion",
+  "orientation": "No rotation; visible grain runs mainly along the image vertical / V axis. Align V to the long architectural member.",
+  "colorSpace": "sRGB",
+  "conversion": {
+    "width": 1024,
+    "height": 1024,
+    "format": "webp",
+    "colorQuality": 95,
+    "lossless": false,
+    "colorEdits": false,
+    "normalGreenChannelFlipped": false
+  },
+  "sha256": "ebc0ba5ef1bcf4ca85d279fa800c42b1feb544973d4e29468bae1b34a4f43de1",
+  "bytes": 284894,
+  "meanChannels": [
+    62.025,
+    25.231,
+    10.484
+  ],
+  "rangeChannels": [
+    [
+      0,
+      135
+    ],
+    [
+      0,
+      89
+    ],
+    [
+      0,
+      66
+    ]
+  ],
+  "measuredMuseumMaterial": false
+}
