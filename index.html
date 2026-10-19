@@ -6,14 +6,14 @@
   <meta name="theme-color" content="#302b26"><meta name="description" content="玉记三维博物馆。自由行走，查看玉器模型与馆藏资料。">
   <title>玉记 · 可行走的三维博物馆</title>
   <link rel="preload" href="./fonts/yuji-ui.woff" as="font" type="font/woff" crossorigin>
-  <script type="module" crossorigin src="./assets/museum-a_FrrCAq.js"></script>
+  <script type="module" crossorigin src="./assets/museum-CuN-LmpD.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-P2Xu9kJm.js">
-  <link rel="modulepreload" crossorigin href="./assets/additional-collection-_iJ9gP8t.js">
+  <link rel="modulepreload" crossorigin href="./assets/additional-collection-M3htEhNA.js">
   <link rel="modulepreload" crossorigin href="./assets/GLTFLoader-CFTK9j0J.js">
   <link rel="modulepreload" crossorigin href="./assets/meshopt_decoder.module-CbQPEPnI.js">
-  <link rel="modulepreload" crossorigin href="./assets/scene-transition-4H_bFjt5.js">
+  <link rel="modulepreload" crossorigin href="./assets/scene-transition-CJfceamA.js">
   <link rel="modulepreload" crossorigin href="./assets/Reflector-na-228jW.js">
-  <link rel="stylesheet" crossorigin href="./assets/additional-collection-ByxEZ19s.css">
+  <link rel="stylesheet" crossorigin href="./assets/additional-collection-GGX_vdxH.css">
   <link rel="stylesheet" crossorigin href="./assets/scene-transition-DezV0vpl.css">
   <link rel="stylesheet" crossorigin href="./assets/museum-CCHkhwdH.css">
 </head>
@@ -47,14 +47,18 @@
     <div id="fallback" class="fallback" hidden><h1>展馆暂时无法打开</h1><p id="fallback-message">当前浏览器未能启动三维画面。你仍可以进入藏品页面查看。</p><a class="primary-button" href="./gallery.html">查看玉器藏品</a><a class="text-link" href="./book.html">阅读玉琮故事</a><a class="text-link" data-atrium-return href="./museum.html?return=jade" hidden>返回中庭</a></div>
   </main>
   <dialog id="menu-dialog" class="museum-dialog menu-dialog" aria-labelledby="menu-title">
-    <button class="close-button" data-close aria-label="关闭参观菜单"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
-    <h2 id="menu-title">参观菜单</h2><p>一层为第一单元「玉琮」，二层为第二单元「玉器」。沿走廊观看图文与展品，在后部使用楼梯或电梯上下楼。</p>
-    <dl class="control-list"><div><dt>行走 / 加快</dt><dd>W A S D / Shift</dd></div><div><dt>转动视角</dt><dd>鼠标，或按住画面拖动</dd></div><div><dt>查看展品 / 电梯</dt><dd>E，或点击交互提示</dd></div><div><dt>键盘转头</dt><dd>方向键 ← → ↑ ↓</dd></div><div><dt>暂停参观</dt><dd>Esc</dd></div></dl>
+    <header class="menu-heading"><h2 id="menu-title">参观菜单</h2><button class="close-button" data-close aria-label="关闭参观菜单"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></header>
+    <div class="menu-body">
+    <p class="menu-intro">一层看玉琮，二层赏玉器。展厅后部设有楼梯与电梯。</p>
+    <dl class="control-list"><div><dt>行走</dt><dd><span class="desktop-help">W A S D / Shift 加快</span><span class="touch-help">拖动左下角摇杆</span></dd></div><div><dt>转动视角</dt><dd><span class="desktop-help">鼠标拖动 / 方向键</span><span class="touch-help">单指拖动画面</span></dd></div><div><dt>展品 / 电梯</dt><dd><span class="desktop-help">E，或点击交互提示</span><span class="touch-help">点击交互提示</span></dd></div><div><dt>暂停参观</dt><dd><span class="desktop-help">Esc</span><span class="touch-help">点击右上角菜单</span></dd></div></dl>
     <label class="quality-label">画面质量<select id="quality"><option value="balanced">均衡 · 更流畅</option><option value="high">精细 · 更高清</option></select></label>
     <p class="desktop-help">精细画质同时开启地面倒影，对设备性能要求更高。</p>
+    <details class="entrance-reading"><summary>展陈资料 · 延伸阅读</summary><ul id="entrance-sources"></ul></details>
+    </div>
+    <footer class="menu-footer">
     <div class="menu-actions"><button id="resume-button" class="primary-button">继续参观</button><button id="reset-button" class="secondary-button">回到入口</button></div>
     <div class="menu-links"><a class="text-link" href="./gallery.html">玉器独立展柜</a><a class="text-link" href="./book.html">玉琮故事</a><a class="text-link" data-atrium-return href="./museum.html?return=jade" hidden>返回中庭</a></div>
-    <details class="entrance-reading"><summary>展陈资料 · 延伸阅读</summary><ul id="entrance-sources"></ul></details>
+    </footer>
   </dialog>
   <dialog id="artifact-dialog" class="museum-dialog artifact-dialog" aria-labelledby="artifact-title">
     <button class="close-button" data-close aria-label="关闭展品介绍"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>

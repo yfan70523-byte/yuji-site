@@ -1,10 +1,10 @@
 {
-  "sourceCommit": "285d48d3469b8bd5541a2b913b44face53592511",
+  "version": "2026-10-19-mobile-menu-icons",
   "entrypoints": [
     "index.html",
     "museum.html",
     "gallery.html",
     "book.html"
   ],
-  "version": "2026-10-19-compact-viewer"
+  "sourceCommit": "a329a17702077900aaa1c15760a5e36f82331483"
 }

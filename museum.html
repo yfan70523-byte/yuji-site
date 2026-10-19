@@ -6,14 +6,14 @@
   <meta name="description" content="玉记整体馆。沿中庭、环廊与楼梯自由参观，前往玉器展厅。">
   <title>玉记 · 中庭与环廊</title>
   <link rel="preload" href="./fonts/yuji-ui.woff" as="font" type="font/woff" crossorigin>
-  <script type="module" crossorigin src="./assets/atrium-DB-7C4tk.js"></script>
+  <script type="module" crossorigin src="./assets/atrium-DCQ2-dTz.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-P2Xu9kJm.js">
-  <link rel="modulepreload" crossorigin href="./assets/additional-collection-_iJ9gP8t.js">
+  <link rel="modulepreload" crossorigin href="./assets/additional-collection-M3htEhNA.js">
   <link rel="modulepreload" crossorigin href="./assets/GLTFLoader-CFTK9j0J.js">
   <link rel="modulepreload" crossorigin href="./assets/meshopt_decoder.module-CbQPEPnI.js">
-  <link rel="modulepreload" crossorigin href="./assets/scene-transition-4H_bFjt5.js">
+  <link rel="modulepreload" crossorigin href="./assets/scene-transition-CJfceamA.js">
   <link rel="modulepreload" crossorigin href="./assets/RoundedBoxGeometry-Bay6CYTR.js">
-  <link rel="stylesheet" crossorigin href="./assets/additional-collection-ByxEZ19s.css">
+  <link rel="stylesheet" crossorigin href="./assets/additional-collection-GGX_vdxH.css">
   <link rel="stylesheet" crossorigin href="./assets/scene-transition-DezV0vpl.css">
   <link rel="stylesheet" crossorigin href="./assets/atrium-CXosZ4WV.css">
 </head>
@@ -45,14 +45,17 @@
     <div id="fallback" class="fallback" hidden><h1>中庭暂时无法打开</h1><p id="fallback-message">当前浏览器未能启动三维画面。你仍可前往玉器展厅，或打开藏品页面。</p><a class="primary-button" href="./index.html">进入玉器展厅</a><a class="text-link" href="./gallery.html">查看玉器藏品</a></div>
   </main>
   <dialog id="menu-dialog" class="museum-dialog" aria-labelledby="menu-title">
-    <button class="close-button" data-close aria-label="关闭参观菜单"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
-    <h2 id="menu-title">参观菜单</h2>
-    <p>一层环廊新增十一件玉琮，可通过下方导览直接前往。玉器馆已开放，其余展厅布展中；弧形楼梯通往二层。</p>
-    <dl class="control-list"><div><dt>行走 / 加快</dt><dd>W A S D / Shift</dd></div><div><dt>转动视角</dt><dd>鼠标拖动 / 方向键</dd></div><div><dt>进入展厅 / 查看说明</dt><dd>E，或点击交互提示</dd></div><div><dt>暂停参观</dt><dd>Esc</dd></div></dl>
+    <header class="menu-heading"><h2 id="menu-title">参观菜单</h2><button class="close-button" data-close aria-label="关闭参观菜单"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></header>
+    <div class="menu-body">
+    <p class="menu-intro">沿中庭环廊参观，或通过导览前往展柜与展厅入口。</p>
+    <dl class="control-list"><div><dt>行走</dt><dd><span class="desktop-help">W A S D / Shift 加快</span><span class="touch-help">拖动左下角摇杆</span></dd></div><div><dt>转动视角</dt><dd><span class="desktop-help">鼠标拖动 / 方向键</span><span class="touch-help">单指拖动画面</span></dd></div><div><dt>进入 / 查看</dt><dd><span class="desktop-help">E，或点击交互提示</span><span class="touch-help">点击交互提示</span></dd></div><div><dt>暂停参观</dt><dd><span class="desktop-help">Esc</span><span class="touch-help">点击右上角菜单</span></dd></div></dl>
     <label class="quality-label">画面质量<select id="quality"><option value="balanced">均衡 · 更流畅</option><option value="high">精细 · 更高清</option></select></label>
-    <div class="guide-control"><label for="guide-destination">馆内导览</label><div><select id="guide-destination"><option value="entrance">南侧主入口</option><option value="overview">入口观景点</option><option value="jade">玉器展厅入口</option><option value="bronze">青铜馆入口</option><option value="ceramic">陶瓷馆入口</option><option value="painting">书画典籍馆入口</option><option value="digital">数字沉浸馆入口</option></select><button class="secondary-button" id="guide-go">前往</button></div><p>直接前往所选入口附近，进入展厅需在门厅确认。</p></div>
+    <div class="guide-control"><label for="guide-destination">馆内导览</label><div><select id="guide-destination"><option value="entrance">南侧主入口</option><option value="overview">入口观景点</option><option value="jade">玉器展厅入口</option><option value="bronze">青铜馆入口</option><option value="ceramic">陶瓷馆入口</option><option value="painting">书画典籍馆入口</option><option value="digital">数字沉浸馆入口</option></select><button class="secondary-button" id="guide-go">前往</button></div><p>抵达入口后，点击提示进入展厅。</p></div>
+    </div>
+    <footer class="menu-footer">
     <div class="menu-actions"><button id="resume-button" class="primary-button">继续参观</button><button id="reset-button" class="secondary-button">回到主入口</button></div>
     <div class="menu-links"><a class="text-link" href="./index.html">玉器展厅</a><a class="text-link" href="./gallery.html">玉器独立展柜</a></div>
+    </footer>
   </dialog>
   <dialog id="hall-dialog" class="museum-dialog" aria-labelledby="hall-title"><button class="close-button" data-close aria-label="关闭展厅说明"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button><h2 id="hall-title"></h2><p>本展厅布展中。请沿门厅原路返回中庭，继续参观环廊与已开放的玉器馆。</p><button class="primary-button" id="hall-return">返回参观</button></dialog>
   <dialog id="exhibit-dialog" class="museum-dialog artifact-dialog" aria-labelledby="exhibit-title">
