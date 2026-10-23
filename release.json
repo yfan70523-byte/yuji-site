@@ -1,10 +1,10 @@
 {
-  "version": "2026-10-23-fast-entry-lift-stone",
+  "version": "2026-10-23-pale-doorway-stone",
   "entrypoints": [
     "index.html",
     "museum.html",
     "gallery.html",
     "book.html"
   ],
-  "sourceCommit": "f33f54b1fac946484dac5954f39abf294e38fbb6"
+  "sourceCommit": "aa8acdcd3c849734bd5e221f312c94f7b3524b4f"
 }
